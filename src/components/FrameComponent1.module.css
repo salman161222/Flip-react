@@ -1,0 +1,44 @@
+.monkey {
+  position: relative;
+  line-height: 16px;
+  font-weight: 500;
+}
+.coinssvgIcon {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 16px;
+}
+.div {
+  position: relative;
+  line-height: 14px;
+}
+.coinssvgParent,
+.monkeyParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.monkeyParent {
+  align-self: stretch;
+  flex: 1;
+  border-radius: var(--br-xs);
+  overflow: hidden;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: var(--padding-xs) var(--padding-lg) var(--padding-xs)
+    var(--padding-sm);
+  background-image: url(/public/frame-23@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--font-size-xs);
+  color: var(--color-white);
+  font-family: var(--font-poppins);
+}

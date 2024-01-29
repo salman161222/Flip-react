@@ -48,12 +48,6 @@
 }
 .frameDiv {
   align-self: stretch;
-  background: linear-gradient(
-    90deg,
-    rgba(0, 255, 134, 0.08),
-    rgba(0, 255, 134, 0)
-  );
-  border-left: 1px solid var(--left-menu-line-stroke);
   overflow: hidden;
   display: flex;
   flex-direction: row;
@@ -145,7 +139,7 @@
 .frameContainer {
   align-self: stretch;
   flex-direction: column;
-  gap: var(--gap-2xl);
+  gap: var(--gap-xl);
 }
 .frameIcon {
   height: 24px;
@@ -221,6 +215,7 @@
   align-items: flex-start;
   justify-content: flex-start;
   padding: 0 0 0 var(--padding-10xs);
+  border-top: 1px solid var(--color1)
 }
 .svgmarginIcon {
   height: 22px;
@@ -312,7 +307,7 @@
   flex: 1;
   flex-direction: column;
   align-items: center;
-  gap: var(--gap-30xl);
+  gap: var(--gap-16xl);
 }
 .linkIcon,
 .linkIcon1,
@@ -331,12 +326,13 @@
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
-  padding: 0 var(--padding-11xs) 0 0;
+  /* padding: 0 var(--padding-11xs) 0 0; */
   gap: var(--gap-mini);
+  padding: 30px 0;
 }
 .colorFrameParent {
-  height: 1128px;
-  width: 245px;
+  /* height: 1128px;
+                                                              width: 245px; */
   background-color: var(--color-gray-400);
   border-right: 1px solid var(--color-gray-300);
   box-sizing: border-box;
@@ -370,3 +366,14 @@
   }
 }
 
+.activeTab {
+  background: linear-gradient(90deg,
+      rgba(0, 255, 134, 0.08),
+      rgba(0, 255, 134, 0));
+  border-left: 1px solid var(--left-menu-line-stroke);
+  padding: var(--padding-xs) var(--padding-21xl);
+  gap: var(--gap-3xs);
+  color: #09ac85;
+
+
+}

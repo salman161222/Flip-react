@@ -1,0 +1,69 @@
+.coinflip {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.pMContainer {
+  align-self: stretch;
+  flex-direction: row;
+  /* padding: 0 var(--padding-xl) 0 0; */
+  box-sizing: border-box;
+  gap: 28px;
+  max-width: 100%;
+}
+
+.coinflip {
+  width: 100%;
+  position: relative;
+  background-color: var(--color);
+  overflow: hidden;
+  flex-direction: column;
+  letter-spacing: normal;
+  text-align: right;
+  font-size: var(--font-size-145xl-2);
+  color: var(--color-gray-500);
+  font-family: var(--font-proxima-nova);
+}
+
+@media screen and (max-width: 1025px) {
+
+  .notPaid1,
+  .notPaid2,
+  .notPaid3,
+  .notPaid4 {
+    font-size: var(--font-size-47xl);
+  }
+
+  .pMContainer {
+    padding-left: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}
+
+@media screen and (max-width: 450px) {
+
+  .notPaid1,
+  .notPaid2,
+  .notPaid3,
+  .notPaid4 {
+    font-size: var(--font-size-22xl);
+  }
+}
+
+.scrollableContent {
+  flex: 1;
+  overflow-y: auto;
+  padding: 20px;
+  /* Add padding to the content if needed */
+  max-height: calc(100vh - 40px);
+}
+
+.dailyRouletteRaceFrameWrapper {
+  padding: 50px 0;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+}

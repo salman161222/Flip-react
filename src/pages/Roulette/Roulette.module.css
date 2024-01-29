@@ -1,35 +1,3 @@
-.notPaid1,
-.notPaid2,
-.notPaid3,
-.notPaid4 {
-  position: absolute;
-  top: 219.86px;
-  left: 798px;
-  text-transform: uppercase;
-  transform: rotate(-17.78deg);
-  transform-origin: 0 0;
-}
-.notPaid2,
-.notPaid3,
-.notPaid4 {
-  left: 92px;
-}
-.notPaid3,
-.notPaid4 {
-  top: 909.86px;
-  left: 713px;
-}
-.notPaid4 {
-  top: 807.86px;
-  left: 0;
-}
-.notPaid {
-  width: 1533.7px;
-  height: 1066.1px;
-  position: relative;
-  display: none;
-  max-width: 100%;
-}
 .frameChild {
   height: 24px;
   width: 24px;
@@ -37,57 +5,26 @@
   object-fit: cover;
   min-height: 24px;
 }
-.roulette1 {
-  position: relative;
-  line-height: 23px;
-  background: linear-gradient(180deg, #12cb70, #09ac85);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.frameParent1 {
-  align-self: stretch;
-  background: linear-gradient(
-    90deg,
-    rgba(0, 255, 134, 0.08),
-    rgba(0, 255, 134, 0)
-  );
-  border-left: 1px solid var(--left-menu-line-stroke);
-  display: flex;
-  flex-direction: row;
-  align-items: flex-end;
-  justify-content: flex-start;
-  padding: var(--padding-xs) var(--padding-21xl);
-  gap: var(--gap-3xs);
-}
+
 .frameItem {
   height: 24px;
   width: 24px;
   position: relative;
   min-height: 24px;
 }
+
 .coinflip {
   position: relative;
   line-height: 23px;
 }
-.frameParent2,
-.frameWrapper {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-}
-.frameParent2 {
-  align-items: flex-end;
-  gap: var(--gap-3xs);
-}
+
 .frameWrapper {
   height: 44px;
   align-items: flex-start;
   padding: 0 var(--padding-21xl);
   box-sizing: border-box;
 }
-.frameChild1,
-.frameChild2,
-.frameChild3,
+
 .frameInner,
 .rectangleDiv {
   position: absolute;
@@ -98,9 +35,7 @@
   width: 18.5px;
   height: 0.9px;
 }
-.frameChild1,
-.frameChild2,
-.frameChild3,
+
 .rectangleDiv {
   top: 16.1px;
   left: 3.7px;
@@ -108,24 +43,8 @@
   width: 3.1px;
   height: 4.8px;
 }
-.frameChild1,
-.frameChild2,
-.frameChild3 {
-  top: 14.4px;
-  left: 8.3px;
-  height: 6.5px;
-}
-.frameChild2,
-.frameChild3 {
-  top: 12.9px;
-  left: 12.9px;
-  height: 8.1px;
-}
-.frameChild3 {
-  top: 8.9px;
-  left: 17.7px;
-  height: 12px;
-}
+
+
 .vectorIcon {
   position: absolute;
   top: 3.3px;
@@ -134,27 +53,32 @@
   height: 10.5px;
   z-index: 1;
 }
+
 .rectangleParent {
   height: 24px;
   width: 24px;
   position: relative;
 }
+
 .crash {
   flex: 1;
   position: relative;
   line-height: 23px;
 }
+
 .frameParent3,
 .frameWrapper1 {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
 }
+
 .frameParent3 {
   flex: 1;
   align-items: flex-end;
   gap: var(--gap-base);
 }
+
 .frameWrapper1 {
   width: 172px;
   height: 46px;
@@ -162,17 +86,20 @@
   padding: 0 var(--padding-21xl);
   box-sizing: border-box;
 }
+
 .frameIcon {
   height: 24px;
   width: 24px;
   position: relative;
   min-height: 24px;
 }
+
 .plinko {
   flex: 1;
   position: relative;
   line-height: 23px;
 }
+
 .frameParent5 {
   align-self: stretch;
   display: flex;
@@ -181,17 +108,20 @@
   justify-content: flex-start;
   gap: var(--gap-3xs);
 }
+
 .frameIcon1 {
   height: 24px;
   width: 24px;
   position: relative;
   min-height: 24px;
 }
+
 .dice {
   flex: 1;
   position: relative;
   line-height: 23px;
 }
+
 .frameParent6 {
   width: 83px;
   display: flex;
@@ -200,11 +130,13 @@
   justify-content: flex-start;
   gap: var(--gap-5xs);
 }
+
 .frameParent4 {
   flex: 1;
   flex-direction: column;
   gap: var(--gap-16xl);
 }
+
 .frameDiv,
 .frameParent4,
 .frameWrapper2 {
@@ -212,34 +144,40 @@
   align-items: flex-start;
   justify-content: flex-start;
 }
+
 .frameWrapper2 {
   width: 170px;
   flex-direction: row;
   padding: 0 var(--padding-21xl);
   box-sizing: border-box;
 }
+
 .frameDiv {
   align-self: stretch;
   flex-direction: column;
   gap: var(--gap-smi);
 }
+
 .frameChild4 {
   align-self: stretch;
   height: 1px;
   position: relative;
   background-color: var(--color1);
 }
+
 .svgmarginIcon {
   height: 22px;
   width: 26px;
   position: relative;
 }
+
 .leaderboard {
   flex: 1;
   position: relative;
   line-height: 23px;
   font-weight: 500;
 }
+
 .frameTriangleMorrriez {
   align-self: stretch;
   display: flex;
@@ -248,17 +186,20 @@
   justify-content: flex-start;
   gap: var(--gap-8xs);
 }
+
 .svgmarginIcon1 {
   height: 21px;
   width: 24px;
   position: relative;
 }
+
 .statistics {
   flex: 1;
   position: relative;
   line-height: 23px;
   font-weight: 500;
 }
+
 .frameTriangleMorrriez1 {
   width: 114px;
   display: flex;
@@ -267,12 +208,14 @@
   justify-content: flex-start;
   gap: var(--gap-8xs);
 }
+
 .svgmarginIcon2 {
   height: 24px;
   width: 24px;
   position: relative;
   min-height: 24px;
 }
+
 .settings {
   flex: 1;
   position: relative;
@@ -280,6 +223,7 @@
   font-weight: 500;
   flex-shrink: 0;
 }
+
 .frameTriangleMorrriez2 {
   width: 103px;
   display: flex;
@@ -288,6 +232,7 @@
   justify-content: flex-start;
   gap: var(--gap-8xs);
 }
+
 .parentFrameEllipseBeau,
 .rectangleGroup {
   display: flex;
@@ -295,31 +240,37 @@
   align-items: flex-start;
   justify-content: flex-start;
 }
+
 .parentFrameEllipseBeau {
   width: 144px;
   gap: var(--gap-16xl);
 }
+
 .rectangleGroup {
   flex: 1;
   padding: 0 var(--padding-10xs) 0 0;
   gap: var(--gap-26xl);
 }
+
 .frameContainer,
 .frameWrapper3 {
   align-self: stretch;
   display: flex;
   justify-content: flex-start;
 }
+
 .frameWrapper3 {
   flex-direction: row;
   align-items: flex-start;
   padding: 0 var(--padding-5xl) 0 var(--padding-18xl);
 }
+
 .frameContainer {
   flex-direction: column;
   align-items: center;
   gap: var(--gap-30xl);
 }
+
 .linkIcon,
 .linkIcon1,
 .linkIcon2 {
@@ -328,9 +279,11 @@
   position: relative;
   min-height: 26px;
 }
+
 .linkIcon2 {
   width: 24.9px;
 }
+
 .containerEllipseArsenalAlic {
   display: flex;
   flex-direction: row;
@@ -338,6 +291,7 @@
   justify-content: flex-start;
   gap: var(--gap-base);
 }
+
 .frameGroup {
   width: 245px;
   background-color: var(--color-gray-400);
@@ -352,6 +306,7 @@
   padding: var(--padding-9xl) 0 var(--padding-13xl);
   gap: 547px;
 }
+
 .roulette2 {
   margin: 0;
   position: relative;
@@ -361,16 +316,19 @@
   font-weight: 600;
   font-family: inherit;
 }
+
 .mediaVolumeMax {
   height: 24px;
   width: 24px;
   overflow: hidden;
   flex-shrink: 0;
 }
+
 .mediaVolumeMax,
 .soundOn {
   position: relative;
 }
+
 .parentFrameSVGPayoutPM {
   display: flex;
   flex-direction: row;
@@ -380,6 +338,7 @@
   font-size: var(--font-size-xs);
   color: var(--color-slategray);
 }
+
 .rectangleArsenalvsChelsea {
   align-self: stretch;
   display: flex;
@@ -390,6 +349,7 @@
   gap: var(--gap-xl);
   font-size: var(--font-size-xl);
 }
+
 .framesvgPM,
 .rolling {
   height: 21px;
@@ -399,20 +359,24 @@
   display: flex;
   align-items: center;
 }
+
 .framesvgPM {
   height: 60px;
   font-weight: 600;
 }
+
 .rectangleArsenalvsChelseaTh {
   width: 21px;
   height: 19px;
   position: relative;
   object-fit: contain;
 }
+
 .frameDate {
   gap: var(--gap-10xs);
   font-size: 40px;
 }
+
 .frameDate,
 .frameLineSeperator {
   display: flex;
@@ -420,6 +384,7 @@
   align-items: center;
   justify-content: flex-start;
 }
+
 .coinIcon {
   height: 100%;
   width: 100%;
@@ -430,6 +395,7 @@
   top: 0;
   transform: scale(1.175);
 }
+
 .wrapperCoin {
   height: 69px;
   width: 68.4px;
@@ -439,6 +405,7 @@
   align-items: center;
   justify-content: center;
 }
+
 .coinIcon1 {
   height: 100%;
   width: 100%;
@@ -449,6 +416,7 @@
   top: 0;
   transform: scale(1.147);
 }
+
 .wrapperCoin1 {
   height: 70px;
   width: 68.2px;
@@ -458,6 +426,7 @@
   align-items: center;
   justify-content: center;
 }
+
 .coinIcon2,
 .coinIcon3 {
   height: 69px;
@@ -465,11 +434,13 @@
   position: relative;
   min-height: 69px;
 }
+
 .coinIcon3 {
   height: 70px;
   width: 68.3px;
   min-height: 70px;
 }
+
 .coinIcon4,
 .coinIcon5 {
   height: 69px;
@@ -477,11 +448,13 @@
   position: relative;
   min-height: 69px;
 }
+
 .coinIcon5 {
   height: 70px;
   width: 68.3px;
   min-height: 70px;
 }
+
 .frameStack,
 .groupedFrames {
   display: flex;
@@ -489,14 +462,17 @@
   align-items: flex-start;
   max-width: 100%;
 }
+
 .frameStack {
   justify-content: center;
   gap: var(--gap-4xs);
 }
+
 .groupedFrames {
   align-self: stretch;
   justify-content: flex-end;
 }
+
 .previousRolls {
   height: 21px;
   position: relative;
@@ -504,6 +480,7 @@
   display: flex;
   align-items: center;
 }
+
 .multiLevelFramesChild {
   align-self: stretch;
   width: 185px;
@@ -511,6 +488,7 @@
   max-height: 100%;
   min-height: 24px;
 }
+
 .groupedFramesParent,
 .multiLevelFrames {
   display: flex;
@@ -519,6 +497,7 @@
   justify-content: flex-start;
   gap: var(--gap-smi);
 }
+
 .groupedFramesParent {
   flex: 1;
   flex-direction: column;
@@ -526,31 +505,37 @@
   min-width: 324px;
   max-width: 100%;
 }
+
 .coinIcon6 {
   height: 69px;
   width: 68.4px;
   position: relative;
 }
+
 .coinIcon7,
 .coinIcon8 {
   height: 70px;
   width: 68.2px;
   position: relative;
 }
+
 .coinIcon8 {
   height: 69px;
   width: 68.4px;
 }
+
 .coinIcon10,
 .coinIcon9 {
   height: 70px;
   width: 68.3px;
   position: relative;
 }
+
 .coinIcon10 {
   width: 68.2px;
   min-height: 70px;
 }
+
 .coinIcon11 {
   height: 100%;
   width: 100%;
@@ -561,6 +546,7 @@
   top: 0;
   transform: scale(1.146);
 }
+
 .wrapperCoin2 {
   height: 69px;
   width: 68.4px;
@@ -570,6 +556,7 @@
   align-items: center;
   justify-content: center;
 }
+
 .coinIcon12 {
   height: 100%;
   width: 100%;
@@ -580,6 +567,7 @@
   top: 0;
   transform: scale(1.176);
 }
+
 .wrapperCoin3 {
   height: 70px;
   width: 68.2px;
@@ -589,6 +577,7 @@
   align-items: center;
   justify-content: center;
 }
+
 .frameQuadrant {
   display: flex;
   flex-direction: row;
@@ -596,6 +585,7 @@
   justify-content: flex-start;
   gap: var(--gap-4xs);
 }
+
 .last100 {
   height: 21px;
   position: relative;
@@ -604,12 +594,14 @@
   display: flex;
   align-items: center;
 }
+
 .coin4Icon {
   height: 24px;
   width: 23.4px;
   position: relative;
   min-height: 24px;
 }
+
 .verticalDivider {
   height: 21px;
   position: relative;
@@ -617,6 +609,7 @@
   display: flex;
   align-items: center;
 }
+
 .horizontalDivider {
   display: flex;
   flex-direction: row;
@@ -624,21 +617,25 @@
   justify-content: flex-start;
   gap: var(--gap-9xs);
 }
+
 .coin5Icon,
 .div {
   position: relative;
 }
+
 .coin5Icon {
   height: 24px;
   width: 23.4px;
   min-height: 24px;
 }
+
 .div {
   height: 21px;
   text-transform: uppercase;
   display: flex;
   align-items: center;
 }
+
 .horizontalDivider1 {
   display: flex;
   flex-direction: row;
@@ -646,12 +643,14 @@
   justify-content: flex-start;
   gap: var(--gap-9xs);
 }
+
 .coin3Icon {
   height: 24px;
   width: 23.8px;
   position: relative;
   min-height: 24px;
 }
+
 .div1 {
   height: 21px;
   position: relative;
@@ -659,12 +658,14 @@
   display: flex;
   align-items: center;
 }
+
 .horizontalDivider2 {
   flex-direction: row;
   align-items: flex-end;
   padding: 0 var(--padding-12xs) 0 0;
   gap: var(--gap-10xs);
 }
+
 .childFrameset,
 .dateFrame,
 .frameCells,
@@ -672,25 +673,30 @@
   display: flex;
   justify-content: flex-start;
 }
+
 .dateFrame {
   flex-direction: row;
   align-items: flex-end;
   padding: 0 var(--padding-9xs) 0 0;
   gap: var(--gap-mini);
 }
+
 .childFrameset,
 .frameCells {
   align-items: flex-start;
 }
+
 .frameCells {
   flex-direction: row;
   padding: 0 0 0 var(--padding-16xl);
 }
+
 .childFrameset {
   flex-direction: column;
   gap: var(--gap-13xl);
   color: var(--color-gainsboro);
 }
+
 .parentFrameBackgroundColor,
 .rectangleArsenalvsChelseaTh1 {
   align-self: stretch;
@@ -699,6 +705,7 @@
   box-sizing: border-box;
   max-width: 100%;
 }
+
 .rectangleArsenalvsChelseaTh1 {
   flex-direction: row;
   flex-wrap: wrap;
@@ -707,6 +714,7 @@
   gap: var(--gap-5xs);
   color: var(--color-slategray);
 }
+
 .parentFrameBackgroundColor {
   flex-direction: column;
   align-items: center;
@@ -714,11 +722,13 @@
   gap: var(--gap-smi);
   min-height: 279px;
 }
+
 .spanfontNumericIcon {
   height: 18px;
   width: 18px;
   position: relative;
 }
+
 .enterBetAmount {
   height: 21px;
   position: relative;
@@ -726,27 +736,33 @@
   align-items: center;
   background: inherit;
   border: none;
+  color: #f8f9fa;
 }
+
 .bottomPMContainerInner,
 .frameChild5 {
   width: 1px;
   background-color: var(--color1);
 }
+
 .frameChild5 {
   position: absolute;
   top: calc(50% - 20px);
   left: 0;
   height: 40px;
 }
+
 .bottomPMContainerInner {
   height: 20px;
   position: relative;
 }
+
 .clear1 {
   position: relative;
   line-height: 16px;
   text-transform: uppercase;
 }
+
 .clear {
   flex: 1;
   border-radius: var(--br-3xs);
@@ -759,11 +775,13 @@
   box-sizing: border-box;
   min-width: 30px;
 }
+
 .div3 {
   position: relative;
   line-height: 16px;
   text-transform: uppercase;
 }
+
 .div2 {
   flex: 1;
   border-radius: var(--br-3xs);
@@ -776,11 +794,13 @@
   box-sizing: border-box;
   min-width: 25px;
 }
+
 .div5 {
   position: relative;
   line-height: 16px;
   text-transform: uppercase;
 }
+
 .div4 {
   border-radius: var(--br-3xs);
   background-color: var(--color1);
@@ -790,11 +810,13 @@
   justify-content: center;
   padding: var(--padding-11xs) var(--padding-5xs);
 }
+
 .div7 {
   position: relative;
   line-height: 16px;
   text-transform: uppercase;
 }
+
 .div6 {
   border-radius: var(--br-3xs);
   background-color: var(--color1);
@@ -804,12 +826,14 @@
   justify-content: center;
   padding: var(--padding-11xs) var(--padding-5xs);
 }
+
 .div9 {
   position: relative;
   line-height: 16px;
   text-transform: uppercase;
   white-space: nowrap;
 }
+
 .div8 {
   border-radius: var(--br-3xs);
   background-color: var(--color1);
@@ -819,12 +843,14 @@
   justify-content: center;
   padding: var(--padding-11xs) var(--padding-5xs);
 }
+
 .div11 {
   position: relative;
   line-height: 16px;
   text-transform: uppercase;
   white-space: nowrap;
 }
+
 .div10 {
   flex: 1;
   border-radius: var(--br-3xs);
@@ -837,11 +863,13 @@
   box-sizing: border-box;
   min-width: 25px;
 }
+
 .div13 {
   position: relative;
   line-height: 16px;
   text-transform: uppercase;
 }
+
 .div12 {
   border-radius: var(--br-3xs);
   background-color: var(--color1);
@@ -851,11 +879,13 @@
   justify-content: center;
   padding: var(--padding-11xs) var(--padding-5xs);
 }
+
 .x2 {
   position: relative;
   line-height: 16px;
   text-transform: uppercase;
 }
+
 .div14 {
   border-radius: var(--br-3xs);
   background-color: var(--color1);
@@ -865,11 +895,13 @@
   justify-content: center;
   padding: var(--padding-11xs) var(--padding-5xs);
 }
+
 .max {
   position: relative;
   line-height: 16px;
   text-transform: uppercase;
 }
+
 .div15 {
   flex: 1;
   border-radius: var(--br-3xs);
@@ -882,6 +914,7 @@
   box-sizing: border-box;
   min-width: 25px;
 }
+
 .clearParent {
   flex: 1;
   align-items: flex-start;
@@ -891,6 +924,7 @@
   font-size: var(--font-size-3xs);
   color: var(--color-lightslategray-300);
 }
+
 .bottomPMContainer,
 .clearParent,
 .topPMContainer {
@@ -899,6 +933,7 @@
   justify-content: flex-start;
   max-width: 100%;
 }
+
 .bottomPMContainer {
   flex: 1;
   border-radius: var(--br-xl);
@@ -907,20 +942,22 @@
   box-sizing: border-box;
   flex-wrap: wrap;
   align-items: center;
-  padding: var(--padding-3xs) var(--padding-mid) var(--padding-3xs)
-    var(--padding-mini);
+  padding: var(--padding-3xs) var(--padding-mid) var(--padding-3xs) var(--padding-mini);
   gap: var(--gap-mini);
 }
+
 .topPMContainer {
   width: 608px;
   align-items: flex-start;
 }
+
 .coin5Icon1 {
   height: 24px;
   width: 23.4px;
   position: relative;
   min-height: 24px;
 }
+
 .placeBet {
   height: 21px;
   position: relative;
@@ -929,23 +966,27 @@
   display: flex;
   align-items: center;
 }
+
 .resultCell {
   flex-direction: row;
   justify-content: flex-start;
   padding: 0 var(--padding-12xs) 0 0;
   gap: var(--gap-5xs);
 }
+
 .arsenalAliciaFrame,
 .resultCell,
 .win2x {
   display: flex;
   align-items: center;
 }
+
 .win2x {
   height: 21px;
   position: relative;
   text-transform: uppercase;
 }
+
 .arsenalAliciaFrame {
   align-self: stretch;
   border-radius: var(--br-5xl);
@@ -955,17 +996,21 @@
   padding: var(--padding-xs) var(--padding-base);
   gap: var(--gap-xl);
 }
+
 .betsTotal {
   position: relative;
 }
+
 .spanfontNumericIcon1 {
   height: 11px;
   width: 11px;
   position: relative;
 }
+
 .div16 {
   position: relative;
 }
+
 .arsenalAliciaChelseaFrame,
 .sVGColumn {
   display: flex;
@@ -974,6 +1019,7 @@
   justify-content: flex-start;
   gap: var(--gap-6xs);
 }
+
 .arsenalAliciaChelseaFrame {
   align-self: stretch;
   border-bottom: 1px solid var(--color-darkslategray-200);
@@ -982,6 +1028,7 @@
   padding: 0 0 var(--padding-5xs);
   gap: var(--gap-xl);
 }
+
 .childFramesIcon {
   height: 20px;
   width: 20px;
@@ -990,6 +1037,7 @@
   object-fit: cover;
   min-height: 20px;
 }
+
 .frameChild6 {
   height: 16px;
   width: 30px;
@@ -997,10 +1045,12 @@
   background-color: var(--color-burlywood);
   display: none;
 }
+
 .fenrik,
 .frameChild6 {
   position: relative;
 }
+
 .childFramesParent {
   display: flex;
   flex-direction: row;
@@ -1008,9 +1058,11 @@
   justify-content: flex-start;
   gap: var(--gap-9xs);
 }
+
 .primaryUserData {
   position: relative;
 }
+
 .dukajFrnkfrtChild {
   align-self: stretch;
   display: flex;
@@ -1019,6 +1071,7 @@
   justify-content: space-between;
   gap: var(--gap-xl);
 }
+
 .arsenalLogoIcon {
   height: 20px;
   width: 20px;
@@ -1027,6 +1080,7 @@
   object-fit: cover;
   min-height: 20px;
 }
+
 .dateDividerChild {
   height: 16px;
   width: 30px;
@@ -1035,9 +1089,11 @@
   background-color: var(--color-lavender);
   display: none;
 }
+
 .tiki {
   position: relative;
 }
+
 .dateDivider {
   display: flex;
   flex-direction: row;
@@ -1045,9 +1101,11 @@
   justify-content: flex-start;
   gap: var(--gap-9xs);
 }
+
 .headerSV {
   position: relative;
 }
+
 .bettingLayout {
   align-self: stretch;
   display: flex;
@@ -1056,6 +1114,7 @@
   justify-content: space-between;
   gap: var(--gap-xl);
 }
+
 .mainBackgroundIcon {
   height: 20px;
   width: 20px;
@@ -1064,6 +1123,7 @@
   object-fit: cover;
   min-height: 20px;
 }
+
 .winLossSVGsChild {
   height: 16px;
   width: 30px;
@@ -1072,9 +1132,11 @@
   background-color: var(--color-deepskyblue);
   display: none;
 }
+
 .aswrd {
   position: relative;
 }
+
 .winLossSVGs {
   display: flex;
   flex-direction: row;
@@ -1082,9 +1144,11 @@
   justify-content: flex-start;
   gap: var(--gap-9xs);
 }
+
 .frameWithPayout {
   position: relative;
 }
+
 .subheaderText {
   align-self: stretch;
   display: flex;
@@ -1093,6 +1157,7 @@
   justify-content: space-between;
   gap: var(--gap-xl);
 }
+
 .pMColumnName {
   height: 20px;
   width: 20px;
@@ -1101,6 +1166,7 @@
   object-fit: cover;
   min-height: 20px;
 }
+
 .userTextCellChild {
   height: 16px;
   width: 30px;
@@ -1109,9 +1175,11 @@
   background-color: var(--color-darkgray);
   display: none;
 }
+
 .morrriez {
   position: relative;
 }
+
 .userTextCell {
   display: flex;
   flex-direction: row;
@@ -1119,9 +1187,11 @@
   justify-content: flex-start;
   gap: var(--gap-9xs);
 }
+
 .titleFrame {
   position: relative;
 }
+
 .multiplicationDiv {
   align-self: stretch;
   display: flex;
@@ -1130,6 +1200,7 @@
   justify-content: space-between;
   gap: var(--gap-xl);
 }
+
 .ellipseGroupIcon {
   height: 20px;
   width: 20px;
@@ -1138,6 +1209,7 @@
   object-fit: cover;
   min-height: 20px;
 }
+
 .beauFontFramesChild {
   height: 16px;
   width: 30px;
@@ -1146,9 +1218,11 @@
   background-color: var(--color-goldenrod);
   display: none;
 }
+
 .frnkfrt2324 {
   position: relative;
 }
+
 .beauFontFrames {
   display: flex;
   flex-direction: row;
@@ -1156,9 +1230,11 @@
   justify-content: flex-start;
   gap: var(--gap-9xs);
 }
+
 .frameGroups {
   position: relative;
 }
+
 .primaryFrames {
   align-self: stretch;
   display: flex;
@@ -1167,6 +1243,7 @@
   justify-content: space-between;
   gap: var(--gap-xl);
 }
+
 .frameGroupsIcon {
   height: 20px;
   width: 20px;
@@ -1175,6 +1252,7 @@
   object-fit: cover;
   min-height: 20px;
 }
+
 .frameGroupsChild {
   height: 16px;
   width: 30px;
@@ -1183,9 +1261,11 @@
   background-color: var(--color-darkgray);
   display: none;
 }
+
 .beau {
   position: relative;
 }
+
 .frameGroups2 {
   display: flex;
   flex-direction: row;
@@ -1193,9 +1273,11 @@
   justify-content: flex-start;
   gap: var(--gap-9xs);
 }
+
 .frameGroups3 {
   position: relative;
 }
+
 .frameGroups1 {
   align-self: stretch;
   display: flex;
@@ -1204,6 +1286,7 @@
   justify-content: space-between;
   gap: var(--gap-xl);
 }
+
 .frameTriosIcon {
   height: 20px;
   width: 20px;
@@ -1212,6 +1295,7 @@
   object-fit: cover;
   min-height: 20px;
 }
+
 .frameTriosChild {
   height: 16px;
   width: 30px;
@@ -1219,10 +1303,12 @@
   background-color: var(--color-lavender);
   display: none;
 }
+
 .dukaj,
 .frameTriosChild {
   position: relative;
 }
+
 .frameTrios {
   display: flex;
   flex-direction: row;
@@ -1230,9 +1316,11 @@
   justify-content: flex-start;
   gap: var(--gap-9xs);
 }
+
 .frameTrios1 {
   position: relative;
 }
+
 .dukajPair {
   align-self: stretch;
   display: flex;
@@ -1241,6 +1329,7 @@
   justify-content: space-between;
   gap: var(--gap-xl);
 }
+
 .foxyFramesIcon {
   height: 20px;
   width: 20px;
@@ -1249,6 +1338,7 @@
   object-fit: cover;
   min-height: 20px;
 }
+
 .foxyFramesChild {
   height: 16px;
   width: 30px;
@@ -1256,10 +1346,12 @@
   background-color: var(--color-lavender);
   display: none;
 }
+
 .foxy,
 .foxyFramesChild {
   position: relative;
 }
+
 .foxyFrames1 {
   display: flex;
   flex-direction: row;
@@ -1267,9 +1359,11 @@
   justify-content: flex-start;
   gap: var(--gap-9xs);
 }
+
 .pUD {
   position: relative;
 }
+
 .foxyFrames {
   align-self: stretch;
   display: flex;
@@ -1278,6 +1372,7 @@
   justify-content: space-between;
   gap: var(--gap-xl);
 }
+
 .ellipseIcon {
   height: 20px;
   width: 20px;
@@ -1286,6 +1381,7 @@
   object-fit: cover;
   min-height: 20px;
 }
+
 .frameChild7 {
   height: 16px;
   width: 30px;
@@ -1293,10 +1389,12 @@
   background-color: var(--color-dimgray);
   display: none;
 }
+
 .frameChild7,
 .pudgyPalh {
   position: relative;
 }
+
 .ellipseParent {
   display: flex;
   flex-direction: row;
@@ -1304,9 +1402,11 @@
   justify-content: flex-start;
   gap: var(--gap-9xs);
 }
+
 .frameUserData {
   position: relative;
 }
+
 .dukajFrnkfrtChild1 {
   align-self: stretch;
   display: flex;
@@ -1315,10 +1415,12 @@
   justify-content: space-between;
   gap: var(--gap-xl);
 }
+
 .dukajFrnkfrtChildParent {
   align-self: stretch;
   gap: var(--gap-8xs);
 }
+
 .dukajFrnkfrtChildParent,
 .resultRow,
 .xPMRow {
@@ -1327,6 +1429,7 @@
   align-items: flex-start;
   justify-content: flex-start;
 }
+
 .resultRow {
   align-self: stretch;
   border-radius: var(--br-9xs);
@@ -1335,18 +1438,21 @@
   gap: var(--gap-4xs);
   font-size: var(--font-size-xs);
 }
+
 .xPMRow {
   width: 312px;
   flex-shrink: 0;
   gap: var(--gap-5xs);
   color: var(--color-white);
 }
+
 .coin3Icon1 {
   height: 24px;
   width: 23.8px;
   position: relative;
   min-height: 24px;
 }
+
 .placeBet1 {
   height: 21px;
   position: relative;
@@ -1355,23 +1461,27 @@
   display: flex;
   align-items: center;
 }
+
 .coin3Parent {
   flex-direction: row;
   justify-content: flex-start;
   gap: var(--gap-5xs);
 }
+
 .coin3Parent,
 .frameParent7,
 .win14x {
   display: flex;
   align-items: center;
 }
+
 .win14x {
   height: 21px;
   position: relative;
   text-transform: uppercase;
   color: var(--color-white);
 }
+
 .frameParent7 {
   align-self: stretch;
   border-radius: var(--br-5xl);
@@ -1381,17 +1491,21 @@
   padding: var(--padding-xs) var(--padding-base);
   gap: var(--gap-xl);
 }
+
 .betsTotal1 {
   position: relative;
 }
+
 .spanfontNumericIcon2 {
   height: 11px;
   width: 11px;
   position: relative;
 }
+
 .div17 {
   position: relative;
 }
+
 .betsTotalParent,
 .spanfontNumericParent {
   display: flex;
@@ -1400,6 +1514,7 @@
   justify-content: flex-start;
   gap: var(--gap-6xs);
 }
+
 .betsTotalParent {
   align-self: stretch;
   border-bottom: 1px solid var(--color-darkslategray-200);
@@ -1408,6 +1523,7 @@
   padding: 0 0 var(--padding-5xs);
   gap: var(--gap-xl);
 }
+
 .frameChild8 {
   height: 20px;
   width: 20px;
@@ -1416,6 +1532,7 @@
   object-fit: cover;
   min-height: 20px;
 }
+
 .frameChild9 {
   height: 16px;
   width: 30px;
@@ -1423,10 +1540,12 @@
   background-color: var(--color-deepskyblue);
   display: none;
 }
+
 .aswrd1,
 .frameChild9 {
   position: relative;
 }
+
 .ellipseGroup {
   display: flex;
   flex-direction: row;
@@ -1434,9 +1553,11 @@
   justify-content: flex-start;
   gap: var(--gap-9xs);
 }
+
 .div18 {
   position: relative;
 }
+
 .frameParent10 {
   align-self: stretch;
   display: flex;
@@ -1445,6 +1566,7 @@
   justify-content: space-between;
   gap: var(--gap-xl);
 }
+
 .frameChild10 {
   height: 20px;
   width: 20px;
@@ -1453,6 +1575,7 @@
   object-fit: cover;
   min-height: 20px;
 }
+
 .frameChild11 {
   height: 16px;
   width: 30px;
@@ -1460,10 +1583,12 @@
   background-color: var(--color-lavender);
   display: none;
 }
+
 .frameChild11,
 .tiki1 {
   position: relative;
 }
+
 .ellipseContainer {
   display: flex;
   flex-direction: row;
@@ -1471,9 +1596,11 @@
   justify-content: flex-start;
   gap: var(--gap-9xs);
 }
+
 .div19 {
   position: relative;
 }
+
 .frameParent11 {
   align-self: stretch;
   display: flex;
@@ -1482,6 +1609,7 @@
   justify-content: space-between;
   gap: var(--gap-xl);
 }
+
 .frameChild12 {
   height: 20px;
   width: 20px;
@@ -1490,6 +1618,7 @@
   object-fit: cover;
   min-height: 20px;
 }
+
 .frameChild13 {
   height: 16px;
   width: 30px;
@@ -1497,10 +1626,12 @@
   background-color: var(--color-burlywood);
   display: none;
 }
+
 .fenrik1,
 .frameChild13 {
   position: relative;
 }
+
 .ellipseParent1 {
   display: flex;
   flex-direction: row;
@@ -1508,9 +1639,11 @@
   justify-content: flex-start;
   gap: var(--gap-9xs);
 }
+
 .div20 {
   position: relative;
 }
+
 .frameParent12 {
   align-self: stretch;
   display: flex;
@@ -1519,6 +1652,7 @@
   justify-content: space-between;
   gap: var(--gap-xl);
 }
+
 .frameChild14 {
   height: 20px;
   width: 20px;
@@ -1527,6 +1661,7 @@
   object-fit: cover;
   min-height: 20px;
 }
+
 .frameChild15 {
   height: 16px;
   width: 30px;
@@ -1534,10 +1669,12 @@
   background-color: var(--color-darkgray);
   display: none;
 }
+
 .frameChild15,
 .morrriez1 {
   position: relative;
 }
+
 .ellipseParent2 {
   display: flex;
   flex-direction: row;
@@ -1545,9 +1682,11 @@
   justify-content: flex-start;
   gap: var(--gap-9xs);
 }
+
 .div21 {
   position: relative;
 }
+
 .frameParent13 {
   align-self: stretch;
   display: flex;
@@ -1556,6 +1695,7 @@
   justify-content: space-between;
   gap: var(--gap-xl);
 }
+
 .frameChild16 {
   height: 20px;
   width: 20px;
@@ -1564,6 +1704,7 @@
   object-fit: cover;
   min-height: 20px;
 }
+
 .frameChild17 {
   height: 16px;
   width: 30px;
@@ -1571,10 +1712,12 @@
   background-color: var(--color-darkgray);
   display: none;
 }
+
 .beau1,
 .frameChild17 {
   position: relative;
 }
+
 .ellipseParent3 {
   display: flex;
   flex-direction: row;
@@ -1582,9 +1725,11 @@
   justify-content: flex-start;
   gap: var(--gap-9xs);
 }
+
 .div22 {
   position: relative;
 }
+
 .frameParent14 {
   align-self: stretch;
   display: flex;
@@ -1593,6 +1738,7 @@
   justify-content: space-between;
   gap: var(--gap-xl);
 }
+
 .frameChild18 {
   height: 20px;
   width: 20px;
@@ -1601,6 +1747,7 @@
   object-fit: cover;
   min-height: 20px;
 }
+
 .frameChild19 {
   height: 16px;
   width: 30px;
@@ -1608,10 +1755,12 @@
   background-color: var(--color-lavender);
   display: none;
 }
+
 .dukaj1,
 .frameChild19 {
   position: relative;
 }
+
 .ellipseParent4 {
   display: flex;
   flex-direction: row;
@@ -1619,9 +1768,11 @@
   justify-content: flex-start;
   gap: var(--gap-9xs);
 }
+
 .div23 {
   position: relative;
 }
+
 .frameParent15 {
   align-self: stretch;
   display: flex;
@@ -1630,6 +1781,7 @@
   justify-content: space-between;
   gap: var(--gap-xl);
 }
+
 .frameChild20 {
   height: 20px;
   width: 20px;
@@ -1638,6 +1790,7 @@
   object-fit: cover;
   min-height: 20px;
 }
+
 .frameChild21 {
   height: 16px;
   width: 30px;
@@ -1645,10 +1798,12 @@
   background-color: var(--color-goldenrod);
   display: none;
 }
+
 .frameChild21,
 .frnkfrt23241 {
   position: relative;
 }
+
 .ellipseParent5 {
   display: flex;
   flex-direction: row;
@@ -1656,9 +1811,11 @@
   justify-content: flex-start;
   gap: var(--gap-9xs);
 }
+
 .div24 {
   position: relative;
 }
+
 .frameParent16 {
   align-self: stretch;
   display: flex;
@@ -1667,6 +1824,7 @@
   justify-content: space-between;
   gap: var(--gap-xl);
 }
+
 .frameChild22 {
   height: 20px;
   width: 20px;
@@ -1675,6 +1833,7 @@
   object-fit: cover;
   min-height: 20px;
 }
+
 .frameChild23 {
   height: 16px;
   width: 30px;
@@ -1682,10 +1841,12 @@
   background-color: var(--color-lavender);
   display: none;
 }
+
 .foxy1,
 .frameChild23 {
   position: relative;
 }
+
 .ellipseParent6 {
   display: flex;
   flex-direction: row;
@@ -1693,9 +1854,11 @@
   justify-content: flex-start;
   gap: var(--gap-9xs);
 }
+
 .div25 {
   position: relative;
 }
+
 .frameParent17 {
   align-self: stretch;
   display: flex;
@@ -1704,6 +1867,7 @@
   justify-content: space-between;
   gap: var(--gap-xl);
 }
+
 .frameChild24 {
   height: 20px;
   width: 20px;
@@ -1711,6 +1875,7 @@
   border-radius: 50%;
   object-fit: cover;
 }
+
 .frameChild25 {
   height: 16px;
   width: 30px;
@@ -1719,10 +1884,12 @@
   background-color: var(--color-dimgray);
   display: none;
 }
+
 .pudgyPalh1 {
   position: relative;
   font-weight: 600;
 }
+
 .ellipseParent7 {
   display: flex;
   flex-direction: row;
@@ -1730,10 +1897,12 @@
   justify-content: flex-start;
   gap: var(--gap-9xs);
 }
+
 .div26 {
   position: relative;
   font-weight: 600;
 }
+
 .frameParent18 {
   align-self: stretch;
   display: none;
@@ -1744,6 +1913,7 @@
   color: var(--color-slategray);
   font-family: var(--font-proxima-nova);
 }
+
 .frameChild26 {
   height: 20px;
   width: 20px;
@@ -1751,6 +1921,7 @@
   border-radius: 50%;
   object-fit: cover;
 }
+
 .frameChild27 {
   height: 16px;
   width: 30px;
@@ -1759,10 +1930,12 @@
   background-color: var(--color-lavender);
   display: none;
 }
+
 .ice {
   position: relative;
   font-weight: 600;
 }
+
 .ellipseParent8 {
   display: flex;
   flex-direction: row;
@@ -1770,10 +1943,12 @@
   justify-content: flex-start;
   gap: var(--gap-9xs);
 }
+
 .div27 {
   position: relative;
   font-weight: 600;
 }
+
 .frameParent19 {
   align-self: stretch;
   display: none;
@@ -1784,10 +1959,12 @@
   color: var(--color-slategray);
   font-family: var(--font-proxima-nova);
 }
+
 .frameParent9 {
   align-self: stretch;
   gap: var(--gap-8xs);
 }
+
 .frameParent8,
 .frameParent9,
 .xPMRow1 {
@@ -1796,6 +1973,7 @@
   align-items: flex-start;
   justify-content: flex-start;
 }
+
 .frameParent8 {
   align-self: stretch;
   border-radius: var(--br-9xs);
@@ -1805,17 +1983,20 @@
   font-size: var(--font-size-xs);
   color: var(--color-white);
 }
+
 .xPMRow1 {
   width: 312px;
   flex-shrink: 0;
   gap: var(--gap-5xs);
 }
+
 .coin4Icon1 {
   height: 24px;
   width: 23.4px;
   position: relative;
   min-height: 24px;
 }
+
 .placeBet2 {
   height: 21px;
   position: relative;
@@ -1824,23 +2005,27 @@
   display: flex;
   align-items: center;
 }
+
 .coin4Parent {
   flex-direction: row;
   justify-content: flex-start;
   gap: var(--gap-5xs);
 }
+
 .coin4Parent,
 .frameParent20,
 .win2x1 {
   display: flex;
   align-items: center;
 }
+
 .win2x1 {
   height: 21px;
   position: relative;
   text-transform: uppercase;
   color: var(--color-white);
 }
+
 .frameParent20 {
   align-self: stretch;
   border-radius: var(--br-5xl);
@@ -1850,17 +2035,21 @@
   padding: var(--padding-xs) var(--padding-base);
   gap: var(--gap-xl);
 }
+
 .betsTotal2 {
   position: relative;
 }
+
 .spanfontNumericIcon3 {
   height: 11px;
   width: 11px;
   position: relative;
 }
+
 .div28 {
   position: relative;
 }
+
 .betsTotalGroup,
 .spanfontNumericGroup {
   display: flex;
@@ -1869,6 +2058,7 @@
   justify-content: flex-start;
   gap: var(--gap-6xs);
 }
+
 .betsTotalGroup {
   align-self: stretch;
   border-bottom: 1px solid var(--color-darkslategray-200);
@@ -1877,6 +2067,7 @@
   padding: 0 0 var(--padding-5xs);
   gap: var(--gap-xl);
 }
+
 .frameChild28 {
   height: 20px;
   width: 20px;
@@ -1885,6 +2076,7 @@
   object-fit: cover;
   min-height: 20px;
 }
+
 .frameChild29 {
   height: 16px;
   width: 30px;
@@ -1892,10 +2084,12 @@
   background-color: var(--color-burlywood);
   display: none;
 }
+
 .fenrik2,
 .frameChild29 {
   position: relative;
 }
+
 .ellipseParent9 {
   display: flex;
   flex-direction: row;
@@ -1903,9 +2097,11 @@
   justify-content: flex-start;
   gap: var(--gap-9xs);
 }
+
 .div29 {
   position: relative;
 }
+
 .frameParent23 {
   align-self: stretch;
   display: flex;
@@ -1914,6 +2110,7 @@
   justify-content: space-between;
   gap: var(--gap-xl);
 }
+
 .frameChild30 {
   height: 20px;
   width: 20px;
@@ -1922,6 +2119,7 @@
   object-fit: cover;
   min-height: 20px;
 }
+
 .frameChild31 {
   height: 16px;
   width: 30px;
@@ -1929,10 +2127,12 @@
   background-color: var(--color-lavender);
   display: none;
 }
+
 .frameChild31,
 .tiki2 {
   position: relative;
 }
+
 .ellipseParent10 {
   display: flex;
   flex-direction: row;
@@ -1940,9 +2140,11 @@
   justify-content: flex-start;
   gap: var(--gap-9xs);
 }
+
 .div30 {
   position: relative;
 }
+
 .frameParent24 {
   align-self: stretch;
   display: flex;
@@ -1951,6 +2153,7 @@
   justify-content: space-between;
   gap: var(--gap-xl);
 }
+
 .frameChild32 {
   height: 20px;
   width: 20px;
@@ -1959,6 +2162,7 @@
   object-fit: cover;
   min-height: 20px;
 }
+
 .frameChild33 {
   height: 16px;
   width: 30px;
@@ -1966,10 +2170,12 @@
   background-color: var(--color-deepskyblue);
   display: none;
 }
+
 .aswrd2,
 .frameChild33 {
   position: relative;
 }
+
 .ellipseParent11 {
   display: flex;
   flex-direction: row;
@@ -1977,9 +2183,11 @@
   justify-content: flex-start;
   gap: var(--gap-9xs);
 }
+
 .div31 {
   position: relative;
 }
+
 .frameParent25 {
   align-self: stretch;
   display: flex;
@@ -1988,6 +2196,7 @@
   justify-content: space-between;
   gap: var(--gap-xl);
 }
+
 .frameChild34 {
   height: 20px;
   width: 20px;
@@ -1996,6 +2205,7 @@
   object-fit: cover;
   min-height: 20px;
 }
+
 .frameChild35 {
   height: 16px;
   width: 30px;
@@ -2003,10 +2213,12 @@
   background-color: var(--color-darkgray);
   display: none;
 }
+
 .frameChild35,
 .morrriez2 {
   position: relative;
 }
+
 .ellipseParent12 {
   display: flex;
   flex-direction: row;
@@ -2014,9 +2226,11 @@
   justify-content: flex-start;
   gap: var(--gap-9xs);
 }
+
 .div32 {
   position: relative;
 }
+
 .frameParent26 {
   align-self: stretch;
   display: flex;
@@ -2025,6 +2239,7 @@
   justify-content: space-between;
   gap: var(--gap-xl);
 }
+
 .frameChild36 {
   height: 20px;
   width: 20px;
@@ -2033,6 +2248,7 @@
   object-fit: cover;
   min-height: 20px;
 }
+
 .frameChild37 {
   height: 16px;
   width: 30px;
@@ -2040,10 +2256,12 @@
   background-color: var(--color-goldenrod);
   display: none;
 }
+
 .frameChild37,
 .frnkfrt23242 {
   position: relative;
 }
+
 .ellipseParent13 {
   display: flex;
   flex-direction: row;
@@ -2051,9 +2269,11 @@
   justify-content: flex-start;
   gap: var(--gap-9xs);
 }
+
 .div33 {
   position: relative;
 }
+
 .frameParent27 {
   align-self: stretch;
   display: flex;
@@ -2062,6 +2282,7 @@
   justify-content: space-between;
   gap: var(--gap-xl);
 }
+
 .frameChild38 {
   height: 20px;
   width: 20px;
@@ -2070,6 +2291,7 @@
   object-fit: cover;
   min-height: 20px;
 }
+
 .frameChild39 {
   height: 16px;
   width: 30px;
@@ -2077,10 +2299,12 @@
   background-color: var(--color-darkgray);
   display: none;
 }
+
 .beau2,
 .frameChild39 {
   position: relative;
 }
+
 .ellipseParent14 {
   display: flex;
   flex-direction: row;
@@ -2088,9 +2312,11 @@
   justify-content: flex-start;
   gap: var(--gap-9xs);
 }
+
 .div34 {
   position: relative;
 }
+
 .frameParent28 {
   align-self: stretch;
   display: flex;
@@ -2099,6 +2325,7 @@
   justify-content: space-between;
   gap: var(--gap-xl);
 }
+
 .frameChild40 {
   height: 20px;
   width: 20px;
@@ -2107,6 +2334,7 @@
   object-fit: cover;
   min-height: 20px;
 }
+
 .frameChild41 {
   height: 16px;
   width: 30px;
@@ -2114,10 +2342,12 @@
   background-color: var(--color-lavender);
   display: none;
 }
+
 .dukaj2,
 .frameChild41 {
   position: relative;
 }
+
 .ellipseParent15 {
   display: flex;
   flex-direction: row;
@@ -2125,9 +2355,11 @@
   justify-content: flex-start;
   gap: var(--gap-9xs);
 }
+
 .div35 {
   position: relative;
 }
+
 .frameParent29 {
   align-self: stretch;
   display: flex;
@@ -2136,6 +2368,7 @@
   justify-content: space-between;
   gap: var(--gap-xl);
 }
+
 .frameChild42 {
   height: 20px;
   width: 20px;
@@ -2144,6 +2377,7 @@
   object-fit: cover;
   min-height: 20px;
 }
+
 .frameChild43 {
   height: 16px;
   width: 30px;
@@ -2151,10 +2385,12 @@
   background-color: var(--color-lavender);
   display: none;
 }
+
 .foxy2,
 .frameChild43 {
   position: relative;
 }
+
 .ellipseParent16 {
   display: flex;
   flex-direction: row;
@@ -2162,9 +2398,11 @@
   justify-content: flex-start;
   gap: var(--gap-9xs);
 }
+
 .div36 {
   position: relative;
 }
+
 .frameParent30 {
   align-self: stretch;
   display: flex;
@@ -2173,6 +2411,7 @@
   justify-content: space-between;
   gap: var(--gap-xl);
 }
+
 .frameChild44 {
   height: 20px;
   width: 20px;
@@ -2181,6 +2420,7 @@
   object-fit: cover;
   min-height: 20px;
 }
+
 .frameChild45 {
   height: 16px;
   width: 30px;
@@ -2188,10 +2428,12 @@
   background-color: var(--color-dimgray);
   display: none;
 }
+
 .frameChild45,
 .pudgyPalh2 {
   position: relative;
 }
+
 .ellipseParent17 {
   display: flex;
   flex-direction: row;
@@ -2199,9 +2441,11 @@
   justify-content: flex-start;
   gap: var(--gap-9xs);
 }
+
 .div37 {
   position: relative;
 }
+
 .frameParent31 {
   align-self: stretch;
   display: flex;
@@ -2210,6 +2454,7 @@
   justify-content: space-between;
   gap: var(--gap-xl);
 }
+
 .frameChild46 {
   height: 20px;
   width: 20px;
@@ -2217,6 +2462,7 @@
   border-radius: 50%;
   object-fit: cover;
 }
+
 .frameChild47 {
   height: 16px;
   width: 30px;
@@ -2225,10 +2471,12 @@
   background-color: var(--color-lavender);
   display: none;
 }
+
 .ice1 {
   position: relative;
   font-weight: 600;
 }
+
 .ellipseParent18 {
   display: flex;
   flex-direction: row;
@@ -2236,10 +2484,12 @@
   justify-content: flex-start;
   gap: var(--gap-9xs);
 }
+
 .div38 {
   position: relative;
   font-weight: 600;
 }
+
 .frameParent32 {
   align-self: stretch;
   display: none;
@@ -2250,17 +2500,20 @@
   color: var(--color-slategray);
   font-family: var(--font-proxima-nova);
 }
+
 .frameParent21,
 .frameParent22 {
   align-self: stretch;
   flex-direction: column;
   align-items: flex-start;
 }
+
 .frameParent22 {
   display: flex;
   justify-content: flex-start;
   gap: var(--gap-8xs);
 }
+
 .frameParent21 {
   border-radius: var(--br-9xs);
   background-color: var(--color-gray-200);
@@ -2269,6 +2522,7 @@
   font-size: var(--font-size-xs);
   color: var(--color-white);
 }
+
 .frameParent21,
 .framedsvg,
 .userBetFrame,
@@ -2276,6 +2530,7 @@
   display: flex;
   justify-content: flex-start;
 }
+
 .xPMRow2 {
   width: 312px;
   flex-shrink: 0;
@@ -2283,10 +2538,12 @@
   align-items: flex-start;
   gap: var(--gap-5xs);
 }
+
 .framedsvg,
 .userBetFrame {
   max-width: 100%;
 }
+
 .userBetFrame {
   width: 1000px;
   overflow-x: auto;
@@ -2295,6 +2552,7 @@
   gap: var(--gap-13xl);
   color: var(--color-gainsboro);
 }
+
 .framedsvg {
   flex-direction: column;
   align-items: center;
@@ -2302,6 +2560,7 @@
   min-height: 449px;
   color: var(--color-darkslategray-100);
 }
+
 .dailyRouletteRace {
   margin: 0;
   align-self: stretch;
@@ -2311,6 +2570,7 @@
   font-weight: 400;
   font-family: inherit;
 }
+
 .payoutContainer {
   width: 220px;
   display: flex;
@@ -2320,6 +2580,7 @@
   padding: 0 0 var(--padding-6xs);
   box-sizing: border-box;
 }
+
 .cellPayout {
   position: relative;
   font-size: var(--font-size-sm);
@@ -2327,6 +2588,7 @@
   color: #aab5c6;
   text-align: right;
 }
+
 .dailyRouletteRaceFrame {
   align-self: stretch;
   display: flex;
@@ -2339,11 +2601,13 @@
   gap: var(--gap-xl);
   font-size: var(--font-size-xl);
 }
+
 .user {
   position: relative;
   line-height: 21px;
   text-transform: capitalize;
 }
+
 .userBetFrame1 {
   width: 134px;
   display: flex;
@@ -2351,11 +2615,13 @@
   align-items: flex-start;
   justify-content: flex-start;
 }
+
 .betAmount {
   position: relative;
   line-height: 21px;
   text-transform: capitalize;
 }
+
 .userBetFrame2 {
   display: flex;
   flex-direction: column;
@@ -2363,15 +2629,18 @@
   justify-content: flex-start;
   padding: 0 var(--padding-5xs) 0 0;
 }
+
 .multiplier {
   font-size: 13px;
 }
+
 .multiplier,
 .payout {
   position: relative;
   line-height: 21px;
   text-transform: capitalize;
 }
+
 .userBetFrame3 {
   display: flex;
   flex-direction: column;
@@ -2379,11 +2648,13 @@
   justify-content: flex-start;
   padding: 0 var(--padding-16xl) 0 0;
 }
+
 .date {
   position: relative;
   line-height: 21px;
   text-transform: capitalize;
 }
+
 .parentFrameDivision,
 .teamLogoFrame {
   display: flex;
@@ -2391,15 +2662,18 @@
   align-items: flex-start;
   max-width: 100%;
 }
+
 .teamLogoFrame {
   width: 850px;
   justify-content: space-between;
   gap: var(--gap-xl);
 }
+
 .parentFrameDivision {
   width: 955px;
   justify-content: flex-start;
 }
+
 .e5885a37f849593d03f3d0b37d339cIcon {
   height: 28px;
   width: 28px;
@@ -2407,6 +2681,7 @@
   border-radius: var(--br-159965xl);
   object-fit: contain;
 }
+
 .arsenalAlicia {
   width: 200px;
   position: relative;
@@ -2414,6 +2689,7 @@
   display: flex;
   align-items: center;
 }
+
 .matchResultFrame1,
 .p {
   flex: 1;
@@ -2421,14 +2697,17 @@
   flex-direction: row;
   justify-content: flex-start;
 }
+
 .p {
   overflow: hidden;
   align-items: flex-start;
 }
+
 .matchResultFrame1 {
   align-items: center;
   gap: var(--gap-5xs);
 }
+
 .svgIcon {
   height: 18.6px;
   width: 32px;
@@ -2436,11 +2715,13 @@
   overflow: hidden;
   flex-shrink: 0;
 }
+
 .svgIconArsenalvs {
   position: relative;
   line-height: 21px;
   font-weight: 500;
 }
+
 .matchResultFrame,
 .parentFrameScoreDisplay {
   display: flex;
@@ -2451,6 +2732,7 @@
   font-size: var(--font-size-sm);
   color: var(--color-white);
 }
+
 .matchResultFrame {
   width: 314px;
   align-items: center;
@@ -2460,25 +2742,30 @@
   font-size: var(--font-size-xs);
   color: var(--color-lightsteelblue-100);
 }
+
 .svgIcon1,
 .x {
   position: relative;
 }
+
 .x {
   line-height: 21px;
   font-weight: 500;
 }
+
 .svgIcon1 {
   height: 18.6px;
   width: 32px;
   overflow: hidden;
   flex-shrink: 0;
 }
+
 .parentFramePayouts {
   position: relative;
   line-height: 21px;
   font-weight: 500;
 }
+
 .textMatchDate {
   display: flex;
   flex-direction: row;
@@ -2489,12 +2776,14 @@
   color: var(--color-aquamarine);
   font-family: var(--font-oswald);
 }
+
 .pm {
   position: relative;
   line-height: 21px;
   font-weight: 500;
   white-space: nowrap;
 }
+
 .div40 {
   align-self: stretch;
   background-color: var(--color-darkslategray-600);
@@ -2505,6 +2794,7 @@
   padding: var(--padding-5xs) 27px var(--padding-5xs) var(--padding-24xl);
   gap: var(--gap-xl);
 }
+
 .cc53bbb81fd1ac457e21bf38ebd067Icon {
   height: 28px;
   width: 28px;
@@ -2520,14 +2810,17 @@
   flex-direction: row;
   justify-content: flex-start;
 }
+
 .p1 {
   overflow: hidden;
   align-items: flex-start;
 }
+
 .multiplierSlider {
   align-items: center;
   gap: var(--gap-5xs);
 }
+
 .svgIcon2 {
   height: 18.6px;
   width: 32px;
@@ -2535,11 +2828,13 @@
   overflow: hidden;
   flex-shrink: 0;
 }
+
 .div41 {
   position: relative;
   line-height: 21px;
   font-weight: 500;
 }
+
 .svgParent,
 .textUser {
   display: flex;
@@ -2550,6 +2845,7 @@
   font-size: var(--font-size-sm);
   color: var(--color-white);
 }
+
 .textUser {
   width: 308px;
   align-items: center;
@@ -2557,25 +2853,30 @@
   font-size: var(--font-size-xs);
   color: var(--color-lightsteelblue-100);
 }
+
 .svgIcon3,
 .x1 {
   position: relative;
 }
+
 .x1 {
   line-height: 21px;
   font-weight: 500;
 }
+
 .svgIcon3 {
   height: 18.6px;
   width: 32px;
   overflow: hidden;
   flex-shrink: 0;
 }
+
 .textPayout {
   position: relative;
   line-height: 21px;
   font-weight: 500;
 }
+
 .svgGroup {
   display: flex;
   flex-direction: row;
@@ -2586,12 +2887,14 @@
   color: var(--color-aquamarine);
   font-family: var(--font-oswald);
 }
+
 .pm1 {
   position: relative;
   line-height: 21px;
   font-weight: 500;
   white-space: nowrap;
 }
+
 .childFramePMArsenalvsChel,
 .childFramePMChelsea {
   display: flex;
@@ -2599,6 +2902,7 @@
   box-sizing: border-box;
   max-width: 100%;
 }
+
 .childFramePMChelsea {
   flex: 1;
   align-items: center;
@@ -2606,12 +2910,14 @@
   padding: 0 var(--padding-12xs) 0 0;
   gap: var(--gap-xl);
 }
+
 .childFramePMArsenalvsChel {
   align-self: stretch;
   align-items: flex-start;
   justify-content: flex-start;
   padding: 0 var(--padding-xl) 0 var(--padding-14xl);
 }
+
 .cc53bbb81fd1ac457e21bf38ebd067Icon1 {
   height: 28px;
   width: 28px;
@@ -2627,14 +2933,17 @@
   flex-direction: row;
   justify-content: flex-start;
 }
+
 .p2 {
   overflow: hidden;
   align-items: flex-start;
 }
+
 .imageframeArsenalvsChelse {
   align-items: center;
   gap: var(--gap-5xs);
 }
+
 .svgIcon4 {
   height: 18.6px;
   width: 32px;
@@ -2642,11 +2951,13 @@
   overflow: hidden;
   flex-shrink: 0;
 }
+
 .div43 {
   position: relative;
   line-height: 21px;
   font-weight: 500;
 }
+
 .parentFramexPM,
 .sVGframematchinfolabel {
   display: flex;
@@ -2657,6 +2968,7 @@
   font-size: var(--font-size-sm);
   color: var(--color-white);
 }
+
 .parentFramexPM {
   width: 308px;
   align-items: center;
@@ -2664,25 +2976,30 @@
   font-size: var(--font-size-xs);
   color: var(--color-lightsteelblue-100);
 }
+
 .svgIcon5,
 .x3 {
   position: relative;
 }
+
 .x3 {
   line-height: 21px;
   font-weight: 500;
 }
+
 .svgIcon5 {
   height: 18.6px;
   width: 32px;
   overflow: hidden;
   flex-shrink: 0;
 }
+
 .textxPM {
   position: relative;
   line-height: 21px;
   font-weight: 500;
 }
+
 .imageframeteamnamesanddates {
   display: flex;
   flex-direction: row;
@@ -2693,12 +3010,14 @@
   color: var(--color-aquamarine);
   font-family: var(--font-oswald);
 }
+
 .pm2 {
   position: relative;
   line-height: 21px;
   font-weight: 500;
   white-space: nowrap;
 }
+
 .div42 {
   align-self: stretch;
   background-color: var(--color-darkslategray-600);
@@ -2706,10 +3025,10 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  padding: var(--padding-5xs) var(--padding-13xl) var(--padding-5xs)
-    var(--padding-24xl);
+  padding: var(--padding-5xs) var(--padding-13xl) var(--padding-5xs) var(--padding-24xl);
   gap: var(--gap-xl);
 }
+
 .f01fdd093ea9a942c63265fc7c026cIcon {
   height: 28px;
   width: 28px;
@@ -2718,6 +3037,7 @@
   object-fit: contain;
   z-index: 2;
 }
+
 .div44,
 .p3 {
   overflow: hidden;
@@ -2725,10 +3045,12 @@
   flex-direction: row;
   justify-content: flex-start;
 }
+
 .p3 {
   align-items: flex-start;
   z-index: 2;
 }
+
 .div44 {
   flex: 1;
   align-items: center;
@@ -2740,6 +3062,7 @@
   font-size: var(--font-size-xs);
   color: var(--color-lightsteelblue-100);
 }
+
 .svgIcon6 {
   height: 18.6px;
   width: 32px;
@@ -2747,11 +3070,13 @@
   overflow: hidden;
   flex-shrink: 0;
 }
+
 .divforxPMlayout {
   position: relative;
   line-height: 21px;
   font-weight: 500;
 }
+
 .rectangleframepayoutinfo {
   width: 163px;
   display: flex;
@@ -2761,11 +3086,13 @@
   gap: var(--gap-4xs);
   color: var(--color-white);
 }
+
 .x4 {
   position: relative;
   line-height: 21px;
   font-weight: 500;
 }
+
 .pMdisplay {
   width: 131px;
   display: flex;
@@ -2773,6 +3100,7 @@
   align-items: flex-start;
   justify-content: flex-start;
 }
+
 .svgIcon7 {
   height: 18.6px;
   width: 32px;
@@ -2780,11 +3108,13 @@
   overflow: hidden;
   flex-shrink: 0;
 }
+
 .div45 {
   position: relative;
   line-height: 21px;
   font-weight: 500;
 }
+
 .rectangleframepayoutinfo1 {
   width: 159px;
   display: flex;
@@ -2794,12 +3124,14 @@
   gap: var(--gap-5xs);
   color: var(--color-aquamarine);
 }
+
 .pm3 {
   position: relative;
   line-height: 21px;
   font-weight: 500;
   white-space: nowrap;
 }
+
 .containerforsvgpayoutframes,
 .sVGframesforpayouts {
   display: flex;
@@ -2808,6 +3140,7 @@
   box-sizing: border-box;
   max-width: 100%;
 }
+
 .containerforsvgpayoutframes {
   flex: 1;
   flex-wrap: wrap;
@@ -2815,11 +3148,13 @@
   padding: 0 var(--padding-12xs) 0 0;
   gap: 39px;
 }
+
 .sVGframesforpayouts {
   width: 987px;
   align-items: flex-start;
   padding: 0 0 0 var(--padding-base);
 }
+
 .div39,
 .divParent,
 .divUserFrameBetAmount {
@@ -2830,42 +3165,46 @@
   justify-content: flex-start;
   max-width: 100%;
 }
+
 .div39 {
   border-radius: var(--br-xs);
   background-color: var(--color-gray-400);
-  padding: var(--padding-xl) var(--padding-25xl) var(--padding-3xs)
-    var(--padding-26xl);
+  padding: var(--padding-xl) var(--padding-25xl) var(--padding-3xs) var(--padding-26xl);
   box-sizing: border-box;
   gap: var(--gap-5xs);
   color: var(--color-lightslategray-100);
 }
+
 .divUserFrameBetAmount {
   gap: 2px;
 }
+
 .frameDateBetPM {
   flex: 1;
-  flex-direction: column;
+  /* flex-direction: column; */
   padding: 53px 0 0;
   box-sizing: border-box;
-  max-width: calc(100% - 271px);
+  /* max-width: calc(100% - 271px); */
   text-align: left;
   font-size: var(--font-size-sm);
   color: var(--color-white);
   font-family: var(--font-poppins);
 }
+
 .frameDateBetPM,
-.frameParent,
 .roulette {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
+  /* height: 100vh; */
 }
+
 .frameParent {
   align-self: stretch;
   flex-direction: row;
-  padding: 0 var(--padding-xl) 0 0;
+  /* padding: 0 var(--padding-xl) 0 0; */
   box-sizing: border-box;
-  gap: var(--gap-7xl);
+  /* gap: var(--gap-7xl); */
   max-width: 100%;
   flex-shrink: 0;
   text-align: left;
@@ -2873,12 +3212,13 @@
   color: var(--color-white);
   font-family: var(--font-poppins);
 }
+
 .roulette {
   width: 100%;
   position: relative;
   /* border-radius: var(--br-base); */
   background-color: var(--color);
-  overflow: hidden;
+  /* overflow: hidden; */
   flex-direction: column;
   gap: var(--gap-12xs);
   letter-spacing: normal;
@@ -2887,121 +3227,169 @@
   color: var(--color-gray-500);
   font-family: var(--font-proxima-nova);
 }
+
 @media screen and (max-width: 1125px) {
   .frameGroup {
     padding-top: var(--padding-xl);
     padding-bottom: var(--padding-2xl);
     box-sizing: border-box;
   }
+
   .div39,
   .div40,
   .div42 {
     padding-left: var(--padding-2xl);
     box-sizing: border-box;
   }
+
   .div39 {
     padding-left: var(--padding-3xl);
     padding-right: var(--padding-3xl);
   }
+
   .frameDateBetPM {
     padding-top: 34px;
     box-sizing: border-box;
   }
 }
+
 @media screen and (max-width: 1025px) {
+
   .notPaid1,
   .notPaid2,
   .notPaid3,
   .notPaid4 {
     font-size: var(--font-size-47xl);
   }
+
   .frameGroup {
     display: none;
   }
+
   .framesvgPM {
     font-size: 32px;
   }
+
   .div40,
   .div42 {
     flex-wrap: wrap;
   }
+
   .frameDateBetPM {
     max-width: 100%;
   }
+
   .frameParent {
     padding-left: var(--padding-xl);
     box-sizing: border-box;
   }
 }
+
 @media screen and (max-width: 750px) {
   .frameGroup {
     padding-bottom: var(--padding-xl);
     box-sizing: border-box;
   }
+
   .frameStack {
     flex-wrap: wrap;
   }
+
   .groupedFramesParent {
     gap: var(--gap-base);
   }
+
   .bottomPMContainerInner {
     width: 100%;
     height: 1px;
   }
+
   .userBetFrame {
     gap: var(--gap-base);
   }
+
   .framedsvg {
     gap: var(--gap-mid);
   }
+
   .childFramePMChelsea,
   .teamLogoFrame {
     flex-wrap: wrap;
   }
+
   .containerforsvgpayoutframes {
     gap: var(--gap-lgi);
   }
+
   .frameDateBetPM {
     padding-top: var(--padding-3xl);
     box-sizing: border-box;
   }
 }
+
 @media screen and (max-width: 450px) {
+
   .notPaid1,
   .notPaid2,
   .notPaid3,
   .notPaid4 {
     font-size: var(--font-size-22xl);
   }
+
   .roulette2 {
     font-size: var(--font-size-base);
     line-height: 28px;
   }
+
   .rectangleArsenalvsChelsea {
     flex-wrap: wrap;
   }
+
   .framesvgPM {
     font-size: 24px;
   }
+
   .multiLevelFrames {
     flex-wrap: wrap;
   }
+
   .childFrameset {
     gap: var(--gap-base);
   }
+
   .clearParent {
     flex-wrap: wrap;
   }
+
   .dailyRouletteRace {
     font-size: var(--font-size-base);
     line-height: 28px;
   }
+
   .dailyRouletteRaceFrame {
     flex-wrap: wrap;
   }
+
   .matchResultFrame,
   .parentFramexPM,
   .textUser {
     gap: var(--gap-8xl);
   }
+}
+
+.scrollableContent {
+  flex: 1;
+  overflow-y: auto;
+  padding: 20px;
+  /* Add padding to the content if needed */
+  max-height: calc(100vh - 40px);
+}
+
+.dailyRouletteRaceFrameWrapper {
+  padding: 50px 0;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
 }

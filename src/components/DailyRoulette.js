@@ -1,9 +1,9 @@
 import React from "react";
-import styles from "../pages/Roulette.module.css";
+import styles from "../pages/Roulette/Roulette.module.css";
 
 export default function DailyRoulette() {
   return (
-    <div>
+    <div className={styles.dailyRouletteRaceFrameWrapper}>
       <div className={styles.dailyRouletteRaceFrame}>
         <div className={styles.payoutContainer}>
           <h2 className={styles.dailyRouletteRace}>Daily Roulette Race</h2>

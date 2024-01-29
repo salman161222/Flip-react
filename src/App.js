@@ -5,7 +5,9 @@ import {
   useNavigationType,
   useLocation,
 } from "react-router-dom";
-import Roulette from "./pages/Roulette";
+import Roulette from "./pages/Roulette/Roulette";
+import Coinflip from "./pages/Coinflip/Coinflip";
+// import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
   const action = useNavigationType();
@@ -49,6 +51,7 @@ function App() {
 
   return (
     <Routes>
+      <Route path="/coinflip" element={<Coinflip />} />
       <Route path="/" element={<Roulette />} />
     </Routes>
   );
