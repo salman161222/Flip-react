@@ -3,6 +3,7 @@ import FrameComponent1 from "./FrameComponent1";
 import FrameComponent from "./FrameComponent";
 import styles from "./CoinflipPage.module.css";
 import CoinflipOverviewTab from "./CoinflipOverviewTab";
+import { Col } from "react-bootstrap";
 
 const CoinflipPage = () => {
   return (
@@ -45,7 +46,11 @@ const CoinflipPage = () => {
                     src="/spanfontnumeric.svg"
                   />
                   <div className={styles.enterBetAmount}>
-                    Enter bet amount...
+                    <input
+                      type="text"
+                      className={styles.enterBetAmount}
+                      placeholder="Enter bet amount..."
+                    />
                   </div>
                   <div className={styles.rectangleWrapper}>
                     <div className={styles.frameChild} />
@@ -147,6 +152,10 @@ const CoinflipPage = () => {
           </div>
         </div>
       </div>
+      <Col md={12} xs={12} lg={12} className={styles.overviewWrapper}>
+        <h2 className={styles.overview}>Overview</h2>
+        <CoinflipOverviewTab />
+      </Col>
     </section>
   );
 };

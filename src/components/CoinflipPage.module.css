@@ -80,10 +80,12 @@
 }
 
 .enterBetAmount {
-  height: 21px;
   position: relative;
   display: flex;
   align-items: center;
+  background: inherit;
+  border: none;
+  color: #f8f9fa;
 }
 
 .frameChild,
@@ -1544,4 +1546,144 @@
     padding-top: var(--padding-4xl);
     box-sizing: border-box;
   }
+  .coinFlipWrapper{
+    padding: 15px !important;
+
+}
+}
+.coinFlipWrapper{
+  padding: 15px 50px;
+  background-color: var(--color-gray-400);
+ 
+  border-radius: 10px;
+}
+.tabsWrapper{
+   background-color: var(--color-gray-400);
+}
+
+.overviewWrapper{
+  padding: 50px 0px;
+  /* font-size: var(--font-size-sm); */
+}
+.coinFlipWrapper{
+  font-size: var(--font-size-sm);
+}
+.tableWrapper{
+  /* padding: 15px 50px; */
+  background-color: var(--color-gray-400);
+  border-radius: 10px;
+  
+}
+.tableWrapper tr td, .tableWrapper th{
+ border: none;
+}
+
+.tableWrapper thead tr th {
+  background-color: var(--color-gray-400); /* Background color for even rows */
+  color: var(--color-lightsteelblue-100);
+  font-weight: 100;
+
+}
+
+.tableWrapper tr:nth-child(even) td {
+  background-color: var(--color-gray-400); /* Background color for even rows */
+}
+
+.tableWrapper tr:nth-child(odd) td {
+  background-color: var(--color-gray-100); /* Background color for odd rows */
+}
+
+/* new */
+
+
+.div44{
+    flex: 1 1;
+    align-items: center;
+    padding: var(--padding-5xs) 0;
+    box-sizing: border-box;
+    gap: var(--gap-4xs);
+    min-width: 126px;
+    z-index: 1;
+    font-size: var(--font-size-xs);
+    color: var(--color-lightsteelblue-100);
+        overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.rectangleframepayoutinfo{
+    align-items: center;
+    padding: var(--padding-5xs) 0;
+    box-sizing: border-box;
+    gap: var(--gap-4xs);
+    min-width: 126px;
+    z-index: 1;
+    font-size: var(--font-size-xs);
+    color: var(--color-white);
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    
+}
+
+.svgIcon6{
+    height: 18.6px;
+    /* width: 32px; */
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.divforxPMlayout {
+    position: relative;
+    line-height: 21px;
+    font-weight: 500;
+}
+.greenText {
+   color: #00ff00;
+}
+
+.x4{
+    position: relative;
+    line-height: 21px;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.tabStyle .nav-item button{
+  /* background-color: red; */
+  font-size: 100px;
+  display: none !important;
+}
+
+.tabHeadingContainer {
+  display: flex;
+}
+
+.tabHeading {
+  padding: 10px 15px;
+  cursor: pointer;
+  border-bottom: 2px solid transparent;
+}
+
+.activeTab {
+  border-color: #00ff00; /* Green border color for active tab */
+}
+
+.rectangleframepayoutinfodate{
+   align-items: center;
+    padding: var(--padding-5xs) 0;
+    box-sizing: border-box;
+    gap: var(--gap-4xs);
+    min-width: 126px;
+    z-index: 1;
+    font-size: var(--font-size-xs);
+    color: var(--color-white);
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  color: var(--color-lightsteelblue-100);
+
 }

@@ -326,8 +326,49 @@
     gap: var(--gap-27xl);
   }
 }
-@media screen and (max-width: 450px) {
+/* @media screen and (max-width: 450px) {
   .textBlock {
     gap: var(--gap-4xl);
   }
+} */
+/* Existing styles */
+
+@media screen and (max-width: 450px) {
+  .frameGroupChild {
+    left: 10px; /* Adjusted for smaller screens */
+    bottom: 5px;
+  }
+
+  .flip {
+    /* margin-left: 10px; */
+    display: none;
+  }
+
+  .rectangleShape {
+    padding-right: var(--padding-3xs); /* Adjusted padding for smaller screens */
+  }
+
+  .textBlock {
+    width: auto; /* Allow textBlock to take full width on smaller screens */
+    gap: var(--gap-4xl); /* Adjusted gap for smaller screens */
+    font-size: var(--font-size-xs); /* Adjusted font size for smaller screens */
+  }
+
+  .streamlinebagDollarSolidParent {
+    padding: var(--padding-7xs); /* Adjusted padding for smaller screens */
+  }
+
+  .frameGroup1 {
+    gap: var(--gap-xs); /* Adjusted gap for smaller screens */
+  }
+
+  .button {
+    padding: var(--padding-3xs) var(--padding-mini); /* Adjusted padding for smaller screens */
+  }
+
+  .online, .div {
+    margin-left: 0; /* Reset margin for smaller screens */
+  }
+
+  /* Add more specific adjustments as needed for smaller screens */
 }

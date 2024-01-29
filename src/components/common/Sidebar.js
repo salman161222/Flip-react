@@ -103,13 +103,13 @@ const Sidebar = () => {
         </Col>
       </Row>
       <Row className={styles.frameSvgOverlay}>
-        <Col>
+        <Col md={3} xs={3} lg={3}>
           <Image className={styles.linkIcon} src="/link.svg" alt="" />
         </Col>
-        <Col>
+        <Col md={3} xs={3} lg={3}>
           <Image className={styles.linkIcon1} src="/link-1.svg" alt="" />
         </Col>
-        <Col>
+        <Col md={3} xs={3} lg={3}>
           <Image className={styles.linkIcon2} src="/link-2.svg" alt="" />
         </Col>
       </Row>
