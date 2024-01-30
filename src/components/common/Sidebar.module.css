@@ -386,3 +386,10 @@
   gap: var(--gap-3xs);
   color: #09ac85;
 }
+
+@media screen and (min-width: 1920px) and (min-height: 1080px) {
+  /* Your styles for 1920x1080 screens go here */
+  .colorFrameParent{
+      height: 100vh;
+    }
+}

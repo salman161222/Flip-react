@@ -950,7 +950,7 @@
 }
 
 .topPMContainer {
-  width: 608px;
+  /* width: 608px; */
   align-items: flex-start;
 }
 
@@ -1443,7 +1443,7 @@
 }
 
 .xPMRow {
-  width: 312px;
+  /* width: 312px; */
   flex-shrink: 0;
   gap: var(--gap-5xs);
   color: var(--color-white);
@@ -1988,7 +1988,7 @@
 }
 
 .xPMRow1 {
-  width: 312px;
+  /* width: 312px; */
   flex-shrink: 0;
   gap: var(--gap-5xs);
 }
@@ -2535,7 +2535,7 @@
 }
 
 .xPMRow2 {
-  width: 312px;
+  /* width: 312px; */
   flex-shrink: 0;
   flex-direction: column;
   align-items: flex-start;
@@ -3185,20 +3185,18 @@
 }
 
 .frameDateBetPM {
-  flex: 1;
-  /* flex-direction: column; */
-  padding: 53px 0 0;
-  box-sizing: border-box;
-  /* max-width: calc(100% - 271px); */
-  text-align: left;
-  font-size: var(--font-size-sm);
-  color: var(--color-white);
-  font-family: var(--font-poppins);
+ flex: 1; /* Adjust flex property */
+    padding: 53px 20px 0; /* Add padding to the right */
+    box-sizing: border-box;
+    text-align: left;
+    font-size: var(--font-size-sm);
+    color: var(--color-white);
+    font-family: var(--font-poppins);
 }
 
 .frameDateBetPM,
 .roulette {
-  display: flex;
+  /* display: flex; */
   align-items: flex-start;
   justify-content: flex-start;
   /* height: 100vh; */
@@ -3338,6 +3336,7 @@
   padding: 15px 20px;
   border-radius: 10px;
 }
+
 }
 
 @media screen and (max-width: 450px) {
@@ -3395,6 +3394,7 @@
     .tableWrapper{
   padding: 15px 20px;
   }
+  
 }
 
 .scrollableContent {
@@ -3439,3 +3439,10 @@
   background-color: var(--color-gray-100); /* Background color for odd rows */
   color: #ffffff; /* Text color for odd rows */
 }
+
+@media screen and (min-width: 1920px){
+    .topPMContainer{
+      width: 670px;
+    }
+}
+

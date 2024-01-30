@@ -1,16 +1,36 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { Container, Row, Col, Image } from "react-bootstrap";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import styles from "./Sidebar.module.css";
 
 const Sidebar = () => {
+  const location = useLocation();
+  const [activeLink, setActiveLink] = useState(null);
+
+  const handleNavLinkClick = (link) => {
+    setActiveLink(link);
+  };
+  useEffect(() => {
+    setActiveLink(location.pathname);
+  }, [location.pathname]);
   return (
     <Container fluid className={styles.colorFrameParent}>
       <Row className={styles.frameParent}>
         <Col className={styles.frameGroup}>
           <Row className={styles.frameContainer}>
-            <Col className={`d-flex align-items-center ${styles.activeTab}`}>
-              <Link to="/" className={styles.linkStyles}>
+            <Col
+              className={
+                activeLink === "/"
+                  ? `d-flex align-items-center ${styles.activeTab}`
+                  : `d-flex align-items-center`
+              }
+              // className={`d-flex align-items-center ${styles.activeTab}`}
+            >
+              <Link
+                to="/"
+                onClick={() => handleNavLinkClick("/")}
+                className={styles.linkStyles}
+              >
                 <div className={styles.linkContainer}>
                   <Image
                     className={styles.colorFrameChild}
@@ -22,8 +42,19 @@ const Sidebar = () => {
                 </div>
               </Link>
             </Col>
-            <Col className={styles.frameDiv}>
-              <Link to="/coinflip" className={styles.linkStyles}>
+            <Col
+              className={
+                activeLink === "/coinflip"
+                  ? `${styles.frameDiv} ${styles.activeTab}`
+                  : `${styles.frameDiv}`
+              }
+              // className={styles.frameDiv}
+            >
+              <Link
+                to="/coinflip"
+                onClick={() => handleNavLinkClick("/coinflip")}
+                className={styles.linkStyles}
+              >
                 <div className={styles.linkContainer}>
                   <Image
                     className={styles.frameChild}
