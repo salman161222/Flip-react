@@ -42,60 +42,65 @@ const Roulette = () => {
                       />
                     </div>
                   </div>
-                  <div className={styles.rectangleArsenalvsChelseaTh1}>
+                  <Col md={12} className="pb-3">
                     <div className={styles.groupedFramesParent}>
                       <div className={styles.groupedFrames}>
                         <div className={styles.frameStack}>
-                          <div className={styles.wrapperCoin}>
-                            <img
-                              className={styles.coinIcon}
-                              loading="eager"
-                              alt=""
-                              src="/coin.svg"
-                            />
-                          </div>
-                          <div className={styles.wrapperCoin1}>
-                            <img
-                              className={styles.coinIcon1}
-                              alt=""
-                              src="/coin-1.svg"
-                            />
-                          </div>
-                          <div className={styles.wrapperCoin1}>
-                            <img
-                              className={styles.coinIcon1}
-                              alt=""
-                              src="/coin-1.svg"
-                            />
-                          </div>
-                          <div className={styles.wrapperCoin1}>
-                            <img
-                              className={styles.coinIcon1}
-                              alt=""
-                              src="/coin-1.svg"
-                            />
-                          </div>
-                          <div className={styles.wrapperCoin1}>
-                            <img
-                              className={styles.coinIcon1}
-                              alt=""
-                              src="/coin-1.svg"
-                            />
-                          </div>
-                          <div className={styles.wrapperCoin1}>
-                            <img
-                              className={styles.coinIcon1}
-                              alt=""
-                              src="/coin-1.svg"
-                            />
-                          </div>
-                          <div className={styles.wrapperCoin1}>
-                            <img
-                              className={styles.coinIcon1}
-                              alt=""
-                              src="/coin-1.svg"
-                            />
-                          </div>
+                          <img
+                            className={styles.coinIcon2}
+                            alt=""
+                            src="/coin-2.svg"
+                          />{" "}
+                          <img
+                            className={styles.coinIcon2}
+                            alt=""
+                            src="/coin-2.svg"
+                          />{" "}
+                          <img
+                            className={styles.coinIcon2}
+                            alt=""
+                            src="/coin-2.svg"
+                          />{" "}
+                          <img
+                            className={styles.coinIcon2}
+                            alt=""
+                            src="/coin-2.svg"
+                          />
+                          <img
+                            className={styles.coinIcon2}
+                            alt=""
+                            src="/coin-2.svg"
+                          />
+                          <img
+                            className={styles.coinIcon3}
+                            alt=""
+                            src="/coin-3.svg"
+                          />
+                          <img
+                            className={styles.coinIcon4}
+                            alt=""
+                            src="/coin-41.svg"
+                          />
+                          <img
+                            className={styles.coinIcon5}
+                            alt=""
+                            src="/coin-5.svg"
+                          />
+                          <img
+                            className={styles.coinIcon5}
+                            alt=""
+                            src="/coin-5.svg"
+                          />
+                          <img
+                            className={styles.coinIcon5}
+                            alt=""
+                            src="/coin-5.svg"
+                          />
+                          <img
+                            className={styles.coinIcon5}
+                            alt=""
+                            src="/coin-5.svg"
+                          />
                           <img
                             className={styles.coinIcon2}
                             alt=""
@@ -118,94 +123,61 @@ const Roulette = () => {
                           />
                         </div>
                       </div>
-                      <div className={styles.multiLevelFrames}>
-                        <div className={styles.previousRolls}>
-                          Previous rolls
-                        </div>
-                        <img
-                          className={styles.multiLevelFramesChild}
-                          loading="eager"
-                          alt=""
-                          src="/group-2.svg"
-                        />
-                      </div>
                     </div>
-                    <img
-                      className={styles.coinIcon6}
-                      alt=""
-                      src="/coin-6.svg"
-                    />
-                    <img
-                      className={styles.coinIcon7}
-                      alt=""
-                      src="/coin-7.svg"
-                    />
-                    <img
-                      className={styles.coinIcon8}
-                      alt=""
-                      src="/coin-8.svg"
-                    />
-                    <img
-                      className={styles.coinIcon9}
-                      alt=""
-                      src="/coin-9.svg"
-                    />
-                    <div className={styles.childFrameset}>
-                      <div className={styles.frameQuadrant}>
-                        <img
-                          className={styles.coinIcon10}
-                          alt=""
-                          src="/coin-10.svg"
-                        />
-                        <div className={styles.wrapperCoin2}>
+                  </Col>
+                  <Col md={12}>
+                    <Row>
+                      <Col md={6}>
+                        <div className={styles.multiLevelFrames}>
+                          <div className={styles.previousRolls}>
+                            Previous rolls
+                          </div>
                           <img
-                            className={styles.coinIcon11}
+                            className={styles.multiLevelFramesChild}
+                            loading="eager"
                             alt=""
-                            src="/coin-11.svg"
+                            src="/group-2.svg"
                           />
                         </div>
-                        <div className={styles.wrapperCoin3}>
-                          <img
-                            className={styles.coinIcon12}
-                            alt=""
-                            src="/coin-12.svg"
-                          />
-                        </div>
-                      </div>
-                      <div className={styles.frameCells}>
-                        <div className={styles.dateFrame}>
-                          <div className={styles.last100}>Last 100</div>
-                          <div className={styles.horizontalDivider}>
-                            <img
-                              className={styles.coin4Icon}
-                              loading="eager"
-                              alt=""
-                              src="/coin-42.svg"
-                            />
-                            <div className={styles.verticalDivider}>40</div>
-                          </div>
-                          <div className={styles.horizontalDivider1}>
-                            <img
-                              className={styles.coin5Icon}
-                              loading="eager"
-                              alt=""
-                              src="/coin-51.svg"
-                            />
-                            <div className={styles.div}>4</div>
-                          </div>
-                          <div className={styles.horizontalDivider2}>
-                            <img
-                              className={styles.coin3Icon}
-                              loading="eager"
-                              alt=""
-                              src="/coin-31.svg"
-                            />
-                            <div className={styles.div1}>56</div>
+                      </Col>
+                      <Col md={6}>
+                        <div className={`${styles.childFrameset}`}>
+                          <div className={styles.frameCells}>
+                            <div className={styles.dateFrame}>
+                              <div className={styles.last100}>Last 100</div>
+                              <div className={styles.horizontalDivider}>
+                                <img
+                                  className={styles.coin4Icon}
+                                  loading="eager"
+                                  alt=""
+                                  src="/coin-42.svg"
+                                />
+                                <div className={styles.verticalDivider}>40</div>
+                              </div>
+                              <div className={styles.horizontalDivider1}>
+                                <img
+                                  className={styles.coin5Icon}
+                                  loading="eager"
+                                  alt=""
+                                  src="/coin-51.svg"
+                                />
+                                <div className={styles.div}>4</div>
+                              </div>
+                              <div className={styles.horizontalDivider2}>
+                                <img
+                                  className={styles.coin3Icon}
+                                  loading="eager"
+                                  alt=""
+                                  src="/coin-31.svg"
+                                />
+                                <div className={styles.div1}>56</div>
+                              </div>
+                            </div>
                           </div>
                         </div>
-                      </div>
-                    </div>
-                  </div>
+                      </Col>
+                    </Row>
+                  </Col>
                 </div>
                 <div className="col-md-12 betSectionWrapper">
                   <Col md={8} className="pb-3 mx-auto betContainer">
@@ -564,6 +536,20 @@ const Roulette = () => {
                                   <div className={styles.ice}>Ice</div>
                                 </div>
                                 <div className={styles.div27}>7.00</div>
+                              </div>
+                              <div className={styles.dukajFrnkfrtChild1}>
+                                <div className={styles.ellipseParent}>
+                                  <img
+                                    className={styles.ellipseIcon}
+                                    alt=""
+                                    src="/ellipse-11@2x.png"
+                                  />
+                                  <div className={styles.frameChild7} />
+                                  <div className={styles.pudgyPalh}>
+                                    PUDGY PALH
+                                  </div>
+                                </div>
+                                <div className={styles.frameUserData}>8.00</div>
                               </div>
                             </div>
                           </div>

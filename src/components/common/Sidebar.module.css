@@ -18,33 +18,18 @@
   position: relative;
   line-height: 23px;
 }
-.colorFrame {
-  align-self: stretch;
-  background: linear-gradient(
-    90deg,
-    rgba(0, 255, 134, 0),
-    rgba(0, 255, 134, 0)
-  );
-  border-left: 1px solid var(--color-springgreen-200);
-  display: flex;
-  flex-direction: row;
-  align-items: flex-end;
-  justify-content: flex-start;
-  padding: var(--padding-xs) var(--padding-21xl);
-  gap: var(--gap-3xs);
-}
 .frameChild {
-  height: 24px;
-  width: 24px;
-  position: relative;
-  min-height: 24px;
+  /* height: 24px; */
+  /* width: 24px; */
+  /* position: relative; */
+  /* min-height: 24px; */
 }
 .coinflip {
   position: relative;
   line-height: 23px;
-  background: linear-gradient(180deg, #12cb70, #09ac85);
+  /* background: linear-gradient(180deg, #12cb70, #09ac85);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: transparent; */
 }
 .frameDiv {
   align-self: stretch;
@@ -56,12 +41,12 @@
   padding: var(--padding-xs) var(--padding-21xl);
   gap: var(--gap-3xs);
   z-index: 1;
+  /* padding: var(--padding-xs) var(--padding-21xl); */
+  /* gap: var(--gap-3xs); */
 }
-.frameChild1,
-.frameChild2,
+
 .frameInner,
-.frameItem,
-.rectangleDiv {
+.frameItem {
   position: absolute;
   top: 20.9px;
   left: 2.8px;
@@ -70,71 +55,23 @@
   width: 18.5px;
   height: 0.9px;
 }
-.frameChild1,
-.frameChild2,
-.frameInner,
-.rectangleDiv {
+
+.frameInner {
   top: 16.1px;
   left: 3.7px;
   border-radius: 0.22px 0.22px 0 0;
   width: 3.1px;
   height: 4.8px;
 }
-.frameChild1,
-.frameChild2,
-.rectangleDiv {
-  top: 14.4px;
-  left: 8.3px;
-  height: 6.5px;
-}
-.frameChild1,
-.frameChild2 {
-  top: 12.9px;
-  left: 12.9px;
-  height: 8.1px;
-}
-.frameChild2 {
-  top: 8.9px;
-  left: 17.7px;
-  height: 12px;
-}
-.vectorIcon {
-  position: absolute;
-  top: 3.3px;
-  left: 2.8px;
-  width: 18.1px;
-  height: 10.5px;
-  z-index: 1;
-}
-.rectangleParent {
-  height: 24px;
-  width: 24px;
-  position: relative;
-}
 .crash {
   flex: 1;
   position: relative;
   line-height: 23px;
 }
-.frameParent1 {
-  flex: 1;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-end;
-  justify-content: flex-start;
-  gap: var(--gap-base);
-}
-.frameContainer,
-.frameWrapper {
+.frameContainer {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
-}
-.frameWrapper {
-  width: 172px;
-  flex-direction: row;
-  padding: 0 var(--padding-21xl);
-  box-sizing: border-box;
 }
 .frameContainer {
   align-self: stretch;
@@ -152,22 +89,6 @@
   position: relative;
   line-height: 23px;
 }
-.frameParent2,
-.frameWrapper1 {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
-}
-.frameParent2 {
-  flex: 1;
-  gap: var(--gap-3xs);
-}
-.frameWrapper1 {
-  width: 170px;
-  padding: 0 var(--padding-21xl);
-  box-sizing: border-box;
-}
 .frameIcon1 {
   height: 24px;
   width: 24px;
@@ -179,42 +100,23 @@
   position: relative;
   line-height: 23px;
 }
-.frameParent3 {
-  flex: 1;
-  flex-direction: row;
-  gap: var(--gap-5xs);
-}
-.frameGroup,
-.frameParent3,
-.frameWrapper2 {
+.frameGroup {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
-}
-.frameWrapper2 {
-  width: 163px;
-  flex-direction: row;
-  padding: 0 var(--padding-21xl);
-  box-sizing: border-box;
 }
 .frameGroup {
   align-self: stretch;
   flex-direction: column;
   gap: var(--gap-16xl);
 }
-.frameChild3 {
-  height: 1px;
-  flex: 1;
-  position: relative;
-  background-color: var(--color1);
-}
 .rectangleWrapper {
-  align-self: stretch;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
-  padding: 0 0 0 var(--padding-10xs);
+  /* align-self: stretch; */
+  /* display: flex; */
+  /* flex-direction: row; */
+  /* align-items: flex-start; */
+  /* justify-content: flex-start; */
+  /* padding: 0 0 0 var(--padding-10xs); */
   border-top: 1px solid var(--color1)
 }
 .svgmarginIcon {
@@ -236,30 +138,11 @@
   justify-content: flex-start;
   gap: var(--gap-8xs);
 }
-.svgmarginIcon1 {
-  height: 21px;
-  width: 24px;
-  position: relative;
-}
 .statistics {
   flex: 1;
   position: relative;
   line-height: 23px;
   font-weight: 500;
-}
-.frameArsenalAlicia1 {
-  width: 114px;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-end;
-  justify-content: flex-start;
-  gap: var(--gap-8xs);
-}
-.svgmarginIcon2 {
-  height: 24px;
-  width: 24px;
-  position: relative;
-  min-height: 24px;
 }
 .settings {
   flex: 1;
@@ -268,46 +151,31 @@
   font-weight: 500;
   flex-shrink: 0;
 }
-.frameArsenalAlicia2,
-.frameCoinflip,
-.frameParent4 {
+
+.frameCoinflip {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
 }
-.frameArsenalAlicia2 {
-  width: 103px;
-  flex-direction: row;
-  gap: var(--gap-8xs);
-}
-.frameCoinflip,
-.frameParent4 {
+.frameCoinflip {
   flex-direction: column;
 }
 .frameCoinflip {
   width: 144px;
   gap: var(--gap-16xl);
 }
-.frameParent4 {
-  flex: 1;
-  gap: var(--gap-26xl);
-}
-.frameParent,
-.frameWrapper3 {
+.frameParent {
   align-self: stretch;
   display: flex;
   justify-content: flex-start;
-}
-.frameWrapper3 {
-  flex-direction: row;
-  align-items: flex-start;
-  padding: 0 var(--padding-5xl) 0 var(--padding-18xl);
 }
 .frameParent {
   flex: 1;
   flex-direction: column;
   align-items: center;
   gap: var(--gap-16xl);
+  
+  
 }
 .linkIcon,
 .linkIcon1,
@@ -328,7 +196,7 @@
   justify-content: flex-start;
   /* padding: 0 var(--padding-11xs) 0 0; */
   gap: var(--gap-mini);
-  padding: 30px 0;
+  padding: 25px 0;
 }
 .colorFrameParent {
   /* height: 1128px;
@@ -357,6 +225,9 @@
    .frameSvgOverlay{
     padding: 70px 0 ;
   }
+  .colorFrameParent{
+      height: 100vh;
+    }
 }
 @media screen and (max-width: 1025px) {
   /* .colorFrameParent {
@@ -365,6 +236,9 @@
    .frameSvgOverlay{
     padding: 70px 0 ;
   }
+  .colorFrameParent{
+      height: 100vh;
+    }
 }
 @media screen and (max-width: 750px) {
   .colorFrameParent {
@@ -375,21 +249,29 @@
   .frameSvgOverlay{
     padding: 70px 0 ;
   }
+  .colorFrameParent{
+      height: 100vh;
+    }
 }
 
 .activeTab {
   background: linear-gradient(90deg,
       rgba(0, 255, 134, 0.08),
       rgba(0, 255, 134, 0));
-  border-left: 1px solid var(--left-menu-line-stroke);
-  padding: var(--padding-xs) var(--padding-21xl);
-  gap: var(--gap-3xs);
   color: #09ac85;
+  border-left: 1px solid var(--left-menu-line-stroke);
+
 }
 
 @media screen and (min-width: 1920px) and (min-height: 1080px) {
   /* Your styles for 1920x1080 screens go here */
   .colorFrameParent{
-      height: 100vh;
-    }
+     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 94vh; /* Set the height to 100% of the viewport height */
+    gap: var(--gap-16xl); /* Adjust as needed */
+    }  
 }
+

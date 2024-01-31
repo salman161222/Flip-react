@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "../pages/Roulette/Roulette.module.css";
-import { Col, Table } from "react-bootstrap";
+import { Col, Row, Table } from "react-bootstrap";
 
 export default function DailyRoulette() {
   return (
@@ -8,10 +8,22 @@ export default function DailyRoulette() {
       <div className={styles.scrollContainer}>
         <div className={styles.dailyRouletteRaceFrameWrapper}>
           <div className={styles.dailyRouletteRaceFrame}>
-            <div className={styles.payoutContainer}>
-              <h2 className={styles.dailyRouletteRace}>Daily Roulette Race</h2>
-            </div>
-            <div className={styles.cellPayout}>Ends in 5h 23 min 11 sec</div>
+            <Col md={12}>
+              <Row>
+                <Col md={6}>
+                  <div className={styles.payoutContainer}>
+                    <h2 className={styles.dailyRouletteRace}>
+                      Daily Roulette Race
+                    </h2>
+                  </div>
+                </Col>
+                <Col md={6}>
+                  <div className={styles.cellPayout}>
+                    Ends in 5h 23 min 11 sec
+                  </div>
+                </Col>
+              </Row>
+            </Col>
           </div>
           <div className={styles.tableWrapper}>
             <Table responsive className={styles.customTable}>

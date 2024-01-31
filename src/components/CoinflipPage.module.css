@@ -544,129 +544,11 @@
   font-family: inherit;
 }
 
-.myBets {
-  flex: 1;
-  position: relative;
-  line-height: 16px;
-}
-
-.myBetsWrapper {
-  width: 132px;
-  border-bottom: 1px solid var(--left-menu-line-stroke);
-  box-sizing: border-box;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  padding: var(--padding-3xs) var(--padding-17xl) var(--padding-3xs) var(--padding-21xl);
-}
-
-.allBets {
-  position: relative;
-  line-height: 16px;
-}
-
-.pMChelseaWinPercent {
-  width: 221px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-  gap: var(--gap-xl);
-}
-
-.pMArsenalWinPercent {
-  align-self: stretch;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
-}
-
-.game {
-  position: relative;
-  line-height: 21px;
-  text-transform: capitalize;
-}
-
-.gameWrapper {
-  width: 119px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-}
-
-.user {
-  position: relative;
-  line-height: 21px;
-  text-transform: capitalize;
-}
-
-.userWrapper {
-  width: 173px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-}
-
-.betAmount,
-.payout {
-  position: relative;
-  line-height: 21px;
-  text-transform: capitalize;
-}
-
-.payoutWrapper {
-  width: 104px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-}
-
-.date {
-  position: relative;
-  line-height: 21px;
-  text-transform: capitalize;
-}
-
-.textFrameCoinflip,
-.textFrameCoinflipWrapper {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  max-width: 100%;
-}
-
-.textFrameCoinflip {
-  flex: 1;
-  justify-content: space-between;
-  gap: var(--gap-xl);
-}
-
-.textFrameCoinflipWrapper {
-  width: 906px;
-  justify-content: flex-start;
-  padding: 0 var(--padding-smi);
-  box-sizing: border-box;
-}
-
 .frameItem {
   height: 24px;
   width: 24px;
   position: relative;
   min-height: 24px;
-}
-
-.coinflip1 {
-  height: 23.8px;
-  flex: 1;
-  position: relative;
-  line-height: 20px;
-  display: flex;
-  align-items: center;
 }
 
 .frameContainer {
@@ -683,42 +565,12 @@
   font-size: var(--font-size-xs);
 }
 
-.e5885a37f849593d03f3d0b37d339cIcon {
-  height: 28px;
-  width: 28px;
-  position: relative;
-  border-radius: var(--br-159965xl);
-  object-fit: cover;
-}
-
 .arsenalAlicia {
   width: 192px;
   position: relative;
   line-height: 21px;
   display: flex;
   align-items: center;
-}
-
-.e5885a37f849593d03f3d0b37d339cParent,
-.p {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-}
-
-.p {
-  flex: 1;
-  overflow: hidden;
-  align-items: flex-start;
-}
-
-.e5885a37f849593d03f3d0b37d339cParent {
-  width: 190px;
-  align-items: center;
-  padding: 0 var(--padding-12xs) 0 0;
-  box-sizing: border-box;
-  gap: var(--gap-6xs);
-  font-size: var(--font-size-xs);
 }
 
 .div19,
@@ -738,77 +590,18 @@
   font-weight: 500;
 }
 
-.svgParent {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
-  padding: 0 var(--padding-17xl) 0 0;
-  gap: var(--gap-5xs);
-  color: var(--color-white);
-}
-
-.svgIcon1 {
-  height: 18.6px;
-  width: 32px;
-  position: relative;
-  overflow: hidden;
-  flex-shrink: 0;
-}
-
 .div20 {
   position: relative;
   line-height: 21px;
   font-weight: 500;
 }
 
-.frameParent1,
-.svgGroup {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-}
-
-.svgGroup {
-  align-items: flex-start;
-  gap: var(--gap-5xs);
-  color: var(--color-aquamarine);
-  font-family: var(--font-oswald);
-}
-
-.frameParent1 {
-  width: 531px;
-  align-items: center;
-  padding: 0 var(--padding-20xl) 0 0;
-  box-sizing: border-box;
-  gap: var(--gap-56xl);
-  max-width: 100%;
-  color: var(--color-lightsteelblue-100);
-}
-
-.pm {
-  position: relative;
-  line-height: 21px;
-  font-weight: 500;
-  white-space: nowrap;
-}
-
-.div18,
-.divWrapper,
-.framePM {
+.div18 {
   display: flex;
   align-items: flex-start;
 }
 
-.framePM {
-  flex-direction: column;
-  justify-content: flex-start;
-  padding: var(--padding-8xs) 0 0;
-  color: var(--color-lightslategray-100);
-}
-
-.div18,
-.divWrapper {
+.div18 {
   flex-direction: row;
   box-sizing: border-box;
   max-width: 100%;
@@ -822,12 +615,6 @@
   gap: var(--gap-xl);
 }
 
-.divWrapper {
-  align-self: stretch;
-  justify-content: flex-start;
-  padding: 0;
-}
-
 .div21 {
   width: 206.3px;
   height: 44px;
@@ -837,150 +624,10 @@
   display: none;
 }
 
-.coinflipSymbolIcon {
-  height: 24px;
-  width: 24px;
-  position: relative;
-  min-height: 24px;
-}
-
-.coinflip2 {
-  height: 23.8px;
-  flex: 1;
-  position: relative;
-  line-height: 20px;
-  display: flex;
-  align-items: center;
-}
-
-.frameEmpty1 {
-  width: 105px;
-  border-radius: var(--br-5xs);
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
-  padding: var(--padding-7xs) var(--padding-5xs);
-  box-sizing: border-box;
-  gap: var(--gap-3xs);
-  z-index: 1;
-  font-size: var(--font-size-xs);
-}
-
-.cc53bbb81fd1ac457e21bf38ebd067Icon {
-  height: 28px;
-  width: 28px;
-  position: relative;
-  border-radius: var(--br-159965xl);
-  object-fit: cover;
-}
-
-.arsenalAlicia1 {
-  width: 192px;
-  position: relative;
-  line-height: 21px;
-  display: flex;
-  align-items: center;
-}
-
-.frameEmpty2,
-.p1 {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-}
-
-.p1 {
-  flex: 1;
-  overflow: hidden;
-  align-items: flex-start;
-}
-
-.frameEmpty2 {
-  width: 190px;
-  align-items: center;
-  gap: var(--gap-5xs);
-  font-size: var(--font-size-xs);
-}
-
-.svgIcon2 {
-  height: 18.6px;
-  width: 32px;
-  position: relative;
-  overflow: hidden;
-  flex-shrink: 0;
-}
-
-.separatorSemicolon {
-  position: relative;
-  line-height: 21px;
-  font-weight: 500;
-}
-
-.framePMPMFrameSVG {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
-  padding: 0 var(--padding-17xl) 0 0;
-  gap: var(--gap-5xs);
-  color: var(--color-white);
-}
-
-.svgIcon3 {
-  height: 18.6px;
-  width: 32px;
-  position: relative;
-  overflow: hidden;
-  flex-shrink: 0;
-}
-
 .div22 {
   position: relative;
   line-height: 21px;
   font-weight: 500;
-}
-
-.compositeFrameCoinflipSVG,
-.framePMPMFrameSVG1 {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-}
-
-.framePMPMFrameSVG1 {
-  align-items: flex-start;
-  gap: var(--gap-5xs);
-  color: var(--color-aquamarine);
-  font-family: var(--font-oswald);
-}
-
-.compositeFrameCoinflipSVG {
-  width: 529px;
-  align-items: center;
-  padding: 0 var(--padding-18xl) 0 0;
-  box-sizing: border-box;
-  gap: var(--gap-56xl);
-  max-width: 100%;
-  color: var(--color-lightsteelblue-100);
-}
-
-.pm1 {
-  position: relative;
-  line-height: 21px;
-  font-weight: 500;
-  color: var(--color-lightslategray-100);
-  white-space: nowrap;
-}
-
-.textArsenalAliciaChelseaJu {
-  flex: 1;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-  gap: var(--gap-xl);
-  max-width: 100%;
 }
 
 .rectangleArsenalvsChelsea {
@@ -1001,153 +648,16 @@
   min-height: 24px;
 }
 
-.coinflip3 {
-  height: 23.8px;
-  flex: 1;
-  position: relative;
-  line-height: 20px;
-  display: flex;
-  align-items: center;
-}
-
-.frameParent2 {
-  width: 105px;
-  border-radius: var(--br-5xs);
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
-  padding: var(--padding-7xs) var(--padding-5xs);
-  box-sizing: border-box;
-  gap: var(--gap-3xs);
-  z-index: 1;
-  font-size: var(--font-size-xs);
-}
-
-.cc53bbb81fd1ac457e21bf38ebd067Icon1 {
-  height: 28px;
-  width: 28px;
-  position: relative;
-  border-radius: var(--br-159965xl);
-  object-fit: cover;
-}
-
-.arsenalAlicia2 {
-  width: 192px;
-  position: relative;
-  line-height: 21px;
-  display: flex;
-  align-items: center;
-}
-
-.cc53bbb81fd1ac457e21bf38ebd067Parent,
-.p2 {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-}
-
-.p2 {
-  flex: 1;
-  overflow: hidden;
-  align-items: flex-start;
-}
-
-.cc53bbb81fd1ac457e21bf38ebd067Parent {
-  width: 190px;
-  align-items: center;
-  padding: 0 var(--padding-12xs) 0 0;
-  box-sizing: border-box;
-  gap: var(--gap-6xs);
-  font-size: var(--font-size-xs);
-}
-
-.svgIcon4 {
-  height: 18.6px;
-  width: 32px;
-  position: relative;
-  overflow: hidden;
-  flex-shrink: 0;
-}
-
 .div24 {
   position: relative;
   line-height: 21px;
   font-weight: 500;
 }
 
-.svgContainer {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
-  padding: 0 var(--padding-19xl) 0 0;
-  gap: var(--gap-6xs);
-  color: var(--color-white);
-}
-
-.svgIcon5 {
-  height: 18.6px;
-  width: 32px;
-  position: relative;
-  overflow: hidden;
-  flex-shrink: 0;
-}
-
 .div25 {
   position: relative;
   line-height: 21px;
   font-weight: 500;
-}
-
-.frameParent3,
-.svgParent1 {
-  display: flex;
-  flex-direction: row;
-  padding: 0 var(--padding-12xs) 0 0;
-}
-
-.svgParent1 {
-  align-items: flex-start;
-  justify-content: flex-start;
-  gap: var(--gap-6xs);
-  color: var(--color-aquamarine);
-  font-family: var(--font-oswald);
-}
-
-.frameParent3 {
-  align-self: stretch;
-  align-items: center;
-  justify-content: space-between;
-  gap: var(--gap-xl);
-}
-
-.divInner {
-  width: 531px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-  padding: var(--padding-9xs) var(--padding-20xl) 0 0;
-  box-sizing: border-box;
-  max-width: 100%;
-  color: var(--color-lightsteelblue-100);
-}
-
-.pm2 {
-  position: relative;
-  line-height: 21px;
-  font-weight: 500;
-  white-space: nowrap;
-}
-
-.pmWrapper {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-  padding: var(--padding-10xs) 0 0;
-  color: var(--color-lightslategray-100);
 }
 
 .div23,
@@ -1181,29 +691,6 @@
   min-height: 24px;
 }
 
-.coinflip4 {
-  height: 23.8px;
-  flex: 1;
-  position: relative;
-  line-height: 20px;
-  display: flex;
-  align-items: center;
-}
-
-.frameParent5 {
-  width: 105px;
-  border-radius: var(--br-5xs);
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
-  padding: var(--padding-7xs) var(--padding-5xs);
-  box-sizing: border-box;
-  gap: var(--gap-3xs);
-  z-index: 1;
-  font-size: var(--font-size-xs);
-}
-
 .f01fdd093ea9a942c63265fc7c026cIcon {
   height: 28px;
   width: 28px;
@@ -1221,7 +708,7 @@
   align-items: center;
 }
 
-.arsenalText,
+
 .p3 {
   display: flex;
   flex-direction: row;
@@ -1234,16 +721,7 @@
   align-items: flex-start;
 }
 
-.arsenalText {
-  width: 155px;
-  align-items: center;
-  padding: 0 var(--padding-2xl) 0 0;
-  box-sizing: border-box;
-  gap: var(--gap-5xs);
-  font-size: var(--font-size-xs);
-}
 
-.sVG,
 .svgIcon6 {
   position: relative;
 }
@@ -1253,20 +731,6 @@
   width: 32px;
   overflow: hidden;
   flex-shrink: 0;
-}
-
-.sVG {
-  line-height: 21px;
-  font-weight: 500;
-}
-
-.svgParent2 {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
-  gap: var(--gap-5xs);
-  color: var(--color-white);
 }
 
 .svgIcon7 {
@@ -1283,27 +747,6 @@
   font-weight: 500;
 }
 
-.arsenalTextParent,
-.svgParent3 {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
-  gap: var(--gap-5xs);
-  color: var(--color-aquamarine);
-}
-
-.arsenalTextParent {
-  width: 531px;
-  align-items: center;
-  justify-content: space-between;
-  padding: 0 var(--padding-16xl) 0 0;
-  box-sizing: border-box;
-  gap: var(--gap-xl);
-  max-width: 100%;
-  color: var(--color-lightsteelblue-100);
-}
-
 .pm3 {
   position: relative;
   line-height: 21px;
@@ -1311,60 +754,17 @@
   white-space: nowrap;
 }
 
-.frameParent4,
-.pMframe {
-  display: flex;
-  justify-content: flex-start;
-}
-
-.pMframe {
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 0 0 var(--padding-9xs);
-  color: var(--color-lightslategray-100);
-}
-
-.frameParent4 {
-  flex: 1;
-  flex-direction: row;
-  align-items: flex-end;
-  gap: var(--gap-86xl);
-  max-width: 100%;
-}
-
-.framePMInner {
-  align-self: stretch;
-  flex-direction: row;
-  padding: 0 var(--padding-smi);
-  box-sizing: border-box;
-}
-
 .div17,
-.frameEmpty,
-.frameGroup,
-.framePM1,
-.framePMInner {
+.frameGroup {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
   max-width: 100%;
 }
 
-.framePM1 {
-  flex: 1;
-  flex-direction: column;
-}
-
 .div17,
-.frameEmpty,
 .frameGroup {
   align-self: stretch;
-}
-
-.frameEmpty {
-  flex-direction: row;
-  padding: 0;
-  box-sizing: border-box;
 }
 
 .div17,
@@ -1387,7 +787,7 @@
   font-family: var(--font-poppins);
 }
 
-.arsenalAliciaChelsaText,
+
 .div16 {
   align-self: stretch;
   box-sizing: border-box;
@@ -1408,13 +808,7 @@
   font-family: var(--font-proxima-nova);
 }
 
-.arsenalAliciaChelsaText {
-  align-items: flex-start;
-  padding: 0 var(--padding-8xs) 0 0;
-  gap: var(--gap-mini);
-}
 
-.arsenalAliciaChelsaText,
 .frameArsenalAliciaChelsea,
 .textCoinflip {
   display: flex;
@@ -1432,7 +826,7 @@
 .frameArsenalAliciaChelsea {
   flex: 1;
   align-items: flex-start;
-  padding: var(--padding-35xl) 0 0;
+  /* padding: var(--padding-35xl) 0 0; */
   box-sizing: border-box;
   /* max-width: calc(100% - 273px); */
   text-align: left;
@@ -1442,9 +836,6 @@
 }
 
 @media screen and (max-width: 1125px) {
-  .frameParent4 {
-    flex-wrap: wrap;
-  }
 
   .div16 {
     padding-left: var(--padding-3xl);
@@ -1456,13 +847,8 @@
 @media screen and (max-width: 1025px) {
 
   .div18,
-  .div23,
-  .textArsenalAliciaChelseaJu {
+  .div23 {
     flex-wrap: wrap;
-  }
-
-  .frameParent4 {
-    gap: var(--gap-33xl);
   }
 
   .frameArsenalAliciaChelsea {
@@ -1494,24 +880,6 @@
     gap: var(--gap-xl);
   }
 
-  .textFrameCoinflip {
-    flex-wrap: wrap;
-  }
-
-  .compositeFrameCoinflipSVG,
-  .frameParent1 {
-    flex-wrap: wrap;
-    gap: var(--gap-18xl);
-  }
-
-  .frameParent3 {
-    flex-wrap: wrap;
-  }
-
-  .frameParent4 {
-    gap: var(--gap-7xl);
-  }
-
   .textCoinflip {
     gap: var(--gap-mini);
   }
@@ -1531,15 +899,6 @@
   .overview {
     font-size: var(--font-size-base);
     line-height: 28px;
-  }
-
-  .compositeFrameCoinflipSVG,
-  .frameParent1 {
-    gap: var(--gap-lgi);
-  }
-
-  .arsenalTextParent {
-    flex-wrap: wrap;
   }
 
   .frameArsenalAliciaChelsea {
@@ -1649,12 +1008,6 @@
     line-height: 21px;
     font-weight: 500;
     font-size: 15px;
-}
-
-.tabStyle .nav-item button{
-  /* background-color: red; */
-  font-size: 100px;
-  display: none !important;
 }
 
 .tabHeadingContainer {

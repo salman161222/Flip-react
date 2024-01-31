@@ -5,10 +5,10 @@ import styles from "./Sidebar.module.css";
 
 const Sidebar = () => {
   const location = useLocation();
-  const [activeLink, setActiveLink] = useState(null);
+  const [activeLink, setActiveLink] = useState("/");
 
   const handleNavLinkClick = (link) => {
-    setActiveLink(link);
+    //setActiveLink(link);
   };
   useEffect(() => {
     setActiveLink(location.pathname);
@@ -21,8 +21,8 @@ const Sidebar = () => {
             <Col
               className={
                 activeLink === "/"
-                  ? `d-flex align-items-center ${styles.activeTab}`
-                  : `d-flex align-items-center`
+                  ? `${styles.frameDiv} ${styles.activeTab}`
+                  : `${styles.frameDiv}`
               }
               // className={`d-flex align-items-center ${styles.activeTab}`}
             >
@@ -62,7 +62,7 @@ const Sidebar = () => {
                     alt=""
                     fluid
                   />
-                  <div className={styles.coinflip}>Coinflip</div>
+                  <div className={styles.roulette}>Coinflip</div>
                 </div>
               </Link>
             </Col>
@@ -96,7 +96,7 @@ const Sidebar = () => {
             </Col>
           </Row>
         </Col>
-        <Col className={styles.frameWrapper}>
+        <Col md={12} className={styles}>
           <Row className={styles.frameParent}>
             <Col className={styles.rectangleWrapper}>
               <div className={styles.frameChild}></div>
